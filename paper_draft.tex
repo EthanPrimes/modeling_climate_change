@@ -1,0 +1,136 @@
+%%
+%%                  TEMPLATE for Math 404 project report
+%%
+\documentclass[11pt]{amsart}
+%%% WARNING: Do NOT change the page size, fonts, or margins!  Penalties will apply.
+
+
+\usepackage{graphicx}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{placeins} %enables \FloatBarrier, which prevents figures and tables from going below it.
+\usepackage{hyperref} %makes cross references into hyperlinks. 
+\usepackage{caption}
+\usepackage{subcaption} %Allows subfigures
+ 
+
+%%% WARNING: Do NOT change the page size, fonts, or margins!  Penalties will apply.
+%%% WARNING: Do NOT change the page size, fonts, or margins!  Penalties will apply.
+
+\title{Modeling Climate Change Over Time}
+\author{Japheth Carlson, Andy Criddle, Nathan Longhurst, Ethan Palenske}
+
+% Change the date to match the date you actually wrote this paper
+\date{\today} % or use \today
+
+
+\begin{document}
+
+\maketitle % this actually makes the title
+
+\begin{abstract}
+% Place abstract here. The abstract summarizes in one paragraph the main question,
+% results, and conclusions drawn from your investigation.  
+\end{abstract}
+
+%% First Section
+\section{Problem Statement and Motivation}
+% Give a clear statement of the problems or questions the project addresses,
+% their context, and a compelling motivation for why they are worth studying.
+% The problems or questions your project addresses should be original, meaningful,
+% and reflect a deep understanding of the subject and its subtleties.  
+
+% Make a clear case for why your question is interesting, well thought out,
+% precisely formulated, and answerable, at least in principle, with adequate data
+% and the techniques of machine learning.
+% Also briefly review, with proper citations \cite{Vandermeersch}, what is already
+% known about the research questions and what techniques others have used to study
+% these questions.
+% Explain the scope of the project and how it fits into existing research. 
+
+
+
+
+%%Second Section
+\section{Data} 
+% Discuss the sources, reliability, and suitability of your data for the problems you are addressing.
+% The dataset should be large enough and rich enough to give reliable, meaningful,
+% and nuanced answers to the questions and problems addressed in your project.
+% Remember that test-train-validation splits for sequential and time-series data are
+% trickier than for tabular data.
+% Be clear about how you handled splitting data into test, training and validation sets,
+% and how you ensured that there was no leakage between test and training set and no
+% other similar data problems.
+% Be clear about how you handled missing data.  Justify your choices on all these things. 
+
+% \begin{figure} %Put your images in a figure like this 
+% \begin{center}
+%     \includegraphics[width=\textwidth]{Myfig.pdf}
+% \end{center}
+%      \caption[Behavior near $1/\sqrt{5}$]{Plots should be high resolution (pdf, 300 dpi), uncluttered, a reasonable size, and easily readable and understandable.  All figures should have a complete caption that helps the reader make sense of the figure even if they haven't read the paper yet. Here is an example: The generalized aliasing decomposition (GAD) decomposes risk (in black) as the sum of three parts: aliasing (blue) which generally peaks at the  interpolation threshold (when the model complexity matches the number of training points) and decreases to zero as the model complexity increases; model insufficiency (red), which dominates when models are too simple, and is monotonically decreasing as models become more complex; and data insufficiency (green), which is usually zero to the left of the interpolation threshold but increases monotonically as model complexity increases.}
+
+% \label{fig:MeanSquaredError} % for automatic cross referencing
+% \end{figure}
+
+
+
+%% Third Section
+\section{Methods} 
+% Your project should involve a thoughtful and original use of several of the
+% machine learning methods and ideas we have learned in class and at least one
+% idea or method we have not covered in class.  
+
+% In this section you should describe and justify your selection of models,
+% your choices of methods, any feature engineering you did, and the ways and
+% reasons you chose your hyperparameters or network architectures.
+% Your discussion should demonstrate a clear understanding of the principles
+% involved and of the strengths and weaknesses of the models and methods used.  
+
+
+
+%%Fourth Section
+\section{Results and Analysis} 
+% Clearly and succinctly describe your results. Give a thorough analysis and a
+% thoughtful discussion of the conclusions that can be drawn.
+% Discuss the suitability and effectiveness of the different models and methods
+% for the problems or questions treated.  
+
+
+
+
+%%Fifth Section
+\section{Ethical Implications and Conclusions}
+% Thoughtfully analyze the ethical implications of your research questions,
+% the data you gathered, and the analysis that was performed.
+% Are there privacy or other implications from the collection or use of the data?
+% Could your results and methods be misused or misunderstood?
+% What can and should be done to prevent misuse and misunderstanding?
+% Could your algorithms and methods result in a destructive self-fulfilling feedback loop?
+% How could that be prevented or controlled?
+% What other ethical implications does your work have?  
+
+
+
+
+%% Sixth section
+\section{Conclusion} 
+% Describe the final conclusions that you draw from your computations, results, and analysis. 
+
+
+
+
+%All text before this line should end before page 11 starts.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliography below
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\FloatBarrier % Keep all figures from being put after the bibliography
+\newpage
+%% If using bibtex, leave this uncommented
+\bibliography{refs} %if using bibtex, call your bibtex file refs.bib
+\bibliographystyle{alpha}
+
+%% If not using bibtex, comment out the previous two lines and uncomment those below
+%\begin{thebibliography}{99}
+%\bibitem{Vandermeersch} First reference goes here
+%\end{thebibliography}
+
+\end{document}
