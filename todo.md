@@ -9,3 +9,9 @@ General:
 
 ARIMA:
 - Try SARMIMAX and VARMAX. Also, lift seasonal trends from Nathan's work
+
+Ethan:
+- Work on the presentation
+
+Graphs:
+- Make a final graph that shows different modeling results
