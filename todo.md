@@ -6,3 +6,6 @@ Datasets:
 
 General:
 - Predict future temperature / co2 levels using each type of model
+
+ARIMA:
+- Try SARMIMAX and VARMAX. Also, lift seasonal trends from Nathan's work
