@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 MAR 2026 12:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 MAR 2026 14:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -270,7 +270,8 @@ Package caption Info: New subtype `subtable' on input line 238.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box55
-) (./paper_draft.aux)
+)
+No file paper_draft.aux.
 \openout1 = `paper_draft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -292,7 +293,7 @@ LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
@@ -318,37 +319,65 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 22.
- (./paper_draft.out) (./paper_draft.out)
 \@outlinefile=\write3
 \openout3 = `paper_draft.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
+/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/tex_dir/paper_draft.tex:50: You can't use `macro parameter character #' in horizontal mode.
+l.50 ...er-than-changes-in-past-65-million-years/#
+                                                  :~:text=According%20to%20a...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (28.75577pt too wide) in paragraph at lines 47--51
+\OT1/cmr/m/n/10.95 [https://www.scientificamerican.com/article/todays-climate-change-proves-much-
+ []
+
+
+Underfull \vbox (badness 4341) has occurred while \output is active []
+
+
 
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+[2]
 No file paper_draft.bbl.
 (./paper_draft.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `paper_draft.out' has not changed.
-(rerunfilecheck)             Checksum: 03F749AD262EC49AF5A2ED7349A251B9;935.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `paper_draft.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `paper_draft.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  03F749AD262EC49AF5A2ED7349A251B9;935.
  ) 
 Here is how much of TeX's memory you used:
- 11573 strings out of 473190
- 180167 string characters out of 5715801
- 573478 words of memory out of 5000000
- 34539 multiletter control sequences out of 15000+600000
- 564438 words of font info for 57 fonts, out of 8000000 for 9000
+ 11572 strings out of 473190
+ 180116 string characters out of 5715801
+ 578400 words of memory out of 5000000
+ 34540 multiletter control sequences out of 15000+600000
+ 566930 words of font info for 67 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 75i,5n,79p,999b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on paper_draft.pdf (1 page, 75125 bytes).
+ 75i,6n,79p,999b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on paper_draft.pdf (2 pages, 97696 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 60 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
