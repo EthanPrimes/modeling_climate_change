@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1774894960.77021 "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" "demo.pdf" "demo" 1774894961.63616 0
-  "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" 1774894960.59813 6933 17b2191842a190843803e9141db2a22b ""
+["pdflatex"] 1774895385.25684 "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" "demo.pdf" "demo" 1774895386.11987 0
+  "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" 1774895384.12056 6979 1a8d798b8336e40c0f3c46c0bd7d8f44 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc" 1576101225 3075 0696ceafc85b8352a913efb9ba64bc17 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1--base.tfm" 1576101225 1840 1834297dad21c65d0f959ffe1bfe4fbd ""
@@ -224,10 +224,10 @@
   "assets/background.jpg" 1774915244 15027 d3d86b2680eb0500bebb3f330cb84bb5 ""
   "assets/byu_logo.jpg" 1774915244 165927 29e7ee915e805c0c905d1f7e96019be2 ""
   "assets/hot_meme.png" 1774894583.64395 1914457 0ea2921cd6904a93f3dc4d39a8aef911 ""
-  "demo.aux" 1774894961.58692 1506 fef2e166d932e3154937ec30b2f152aa "pdflatex"
-  "demo.nav" 1774894961.58753 923 02772eacdfe77d67b79e45a640fd18ab "pdflatex"
-  "demo.out" 1774894961.25872 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "demo.tex" 1774894960.59813 6933 17b2191842a190843803e9141db2a22b ""
+  "demo.aux" 1774895386.07048 1506 9379574bb97b8281e8bfdac35b614836 "pdflatex"
+  "demo.nav" 1774895386.0711 923 2d6176cb5f27cf3c50a69889b8e3e073 "pdflatex"
+  "demo.out" 1774895385.73905 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "demo.tex" 1774895384.12056 6979 1a8d798b8336e40c0f3c46c0bd7d8f44 ""
   "styles/beamercolorthemeflux.sty" 1774915244 4271 7b40071e1adcbe16ccbd06eddb4f0e20 ""
   "styles/beamerfontthemeflux.sty" 1774915244 2053 866b9b2d9ecc25380ef28e231cae19e1 ""
   "styles/beamerinnerthemeflux.sty" 1774915244 7167 e86cc3dc67e11f9790f62d7f1c8935d9 ""

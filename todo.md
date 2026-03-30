@@ -8,10 +8,7 @@ General:
 - Predict future temperature / co2 levels using each type of model
 
 ARIMA:
-- Try SARMIMAX and VARMAX. Also, lift seasonal trends from Nathan's work
-
-Ethan:
-- Work on the presentation
+- Try SARMIMAX and VARMAX. Also, lift seasonal trends / cleaned data from others' notebooks
 
 Graphs:
 - Make a final graph that shows different modeling results

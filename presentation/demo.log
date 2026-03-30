@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 MAR 2026 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 MAR 2026 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -956,30 +956,34 @@ Package pdftex.def Info: assets/background.jpg  used on input line 51.
 <assets/hot_meme.png, id=22, 637.38126pt x 519.9425pt>
 File: assets/hot_meme.png Graphic file (type png)
 <use assets/hot_meme.png>
-Package pdftex.def Info: assets/hot_meme.png  used on input line 142.
+Package pdftex.def Info: assets/hot_meme.png  used on input line 146.
 (pdftex.def)             Requested size: 191.21585pt x 155.98395pt.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 142.
+(Font)              `T1/Roboto-LF/bold/n' on input line 146.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 142.
+(Font)              scaled to size 9.0pt on input line 146.
 <assets/byu_logo.jpg, id=24, 722.7pt x 289.08pt>
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 142.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 146.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 142.
+Package pdftex.def Info: assets/background.jpg  used on input line 146.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 142.
+(Font)              `T1/Roboto-LF/regular/n' on input line 146.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 4.0pt on input line 142.
+(Font)              scaled to size 4.0pt on input line 146.
 [2
 
  <./assets/byu_logo.jpg> <./assets/hot_meme.png>]
+File: assets/hot_meme.png Graphic file (type png)
+<use assets/hot_meme.png>
+Package pdftex.def Info: assets/hot_meme.png  used on input line 146.
+(pdftex.def)             Requested size: 191.21585pt x 155.98395pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
 Package pdftex.def Info: assets/byu_logo.jpg  used on input line 146.
@@ -1045,21 +1049,34 @@ Package pdftex.def Info: assets/background.jpg  used on input line 162.
 [7
 
 ]
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 168.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 168.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 168.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 166.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 168.
+Package pdftex.def Info: assets/background.jpg  used on input line 166.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [8
+
+]
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 172.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 172.
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 172.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 172.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[9
 
 ]
 \tf@nav=\write6
@@ -1080,18 +1097,18 @@ Package rerunfilecheck Info: File `demo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28770 strings out of 473190
- 592116 string characters out of 5715801
+ 28773 strings out of 473190
+ 592148 string characters out of 5715801
  969641 words of memory out of 5000000
- 51412 multiletter control sequences out of 15000+600000
+ 51413 multiletter control sequences out of 15000+600000
  614287 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,123p,494b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
-Output written on demo.pdf (8 pages, 2481122 bytes).
+Output written on demo.pdf (9 pages, 2483021 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
