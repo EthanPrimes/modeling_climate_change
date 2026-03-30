@@ -1,8 +1,8 @@
-PWD /Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/tex_dir
+PWD /Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/tex_dir
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/tex_dir/paper_draft.tex
+INPUT /Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/tex_dir/paper_draft.tex
 OUTPUT paper_draft.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsart.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsart.cls

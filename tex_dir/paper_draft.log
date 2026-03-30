@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 MAR 2026 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 MAR 2026 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/tex_dir/paper_draft.tex"
-(/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/tex_dir/paper_draft.tex
+**/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/tex_dir/paper_draft.tex
+(/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/tex_dir/paper_draft.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsart.cls
@@ -325,7 +325,7 @@ Package hyperref Info: Link coloring OFF on input line 22.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/tex_dir/paper_draft.tex:50: You can't use `macro parameter character #' in horizontal mode.
+/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/tex_dir/paper_draft.tex:50: You can't use `macro parameter character #' in horizontal mode.
 l.50 ...er-than-changes-in-past-65-million-years/#
                                                   :~:text=According%20to%20a...
 Sorry, but I'm not programmed to handle this case;
@@ -339,11 +339,18 @@ Overfull \hbox (28.75577pt too wide) in paragraph at lines 47--51
  []
 
 
-Underfull \vbox (badness 4341) has occurred while \output is active []
+Overfull \hbox (36.53246pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10.95 vided for free on Kag-gle. [https://www.kaggle.com/datasets/berkeleyearth/climate-
+ []
 
 
 
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (92.29637pt too wide) in paragraph at lines 75--76
+\OT1/cmr/m/n/10.95 ture, we use the emis-sions data pro-vided by Our World in Data [https://ourworldindata.org/co2-
+ []
+
+
 
 [2]
 No file paper_draft.bbl.
@@ -367,14 +374,14 @@ Package rerunfilecheck Info: Checksums for `paper_draft.out':
  ) 
 Here is how much of TeX's memory you used:
  11572 strings out of 473190
- 180116 string characters out of 5715801
- 578400 words of memory out of 5000000
+ 180075 string characters out of 5715801
+ 579400 words of memory out of 5000000
  34540 multiletter control sequences out of 15000+600000
  566930 words of font info for 67 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 75i,6n,79p,999b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,984b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on paper_draft.pdf (2 pages, 97696 bytes).
+Output written on paper_draft.pdf (2 pages, 100014 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
