@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex paper_draft"] 1775052735.49358 "paper_draft.aux" "paper_draft.bbl" "paper_draft" 1775054346.57325 0
+["bibtex paper_draft"] 0 "paper_draft.aux" "paper_draft.bbl" "paper_draft" 1775054532.64417 0
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/alpha.bst" 1292289607 23907 a5f93555796fb564b924339521f10a7c ""
-  "paper_draft.aux" 1775052984.69334 1168 5bd83d820ac69892337f345833b20340 "pdflatex"
+  "paper_draft.aux" 0 -1 0 "pdflatex"
   "refs.bib" 0 -1 0 ""
   (generated)
   "paper_draft.bbl"
   "paper_draft.blg"
   (rewritten before read)
-["pdflatex"] 1775054346.12786 "/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/tex_dir/paper_draft.tex" "paper_draft.pdf" "paper_draft" 1775054346.57334 2
-  "/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/tex_dir/paper_draft.tex" 1775054345.4742 8930 8794d1d301405d0e8b7d51054c58ea5b ""
+["pdflatex"] 1775054532.16479 "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/tex_dir/paper_draft.tex" "paper_draft.pdf" "paper_draft" 1775054532.64427 2
+  "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/tex_dir/paper_draft.tex" 1775054490.4626 8930 8794d1d301405d0e8b7d51054c58ea5b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -97,13 +97,13 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
-  "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761892024 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
+  "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1757904402 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "paper_draft.aux" 1775054346.41937 1051 efac44050c4aee9ea8ccb6b67dc0584f "pdflatex"
+  "paper_draft.aux" 1775054532.48994 1051 efac44050c4aee9ea8ccb6b67dc0584f "pdflatex"
   "paper_draft.bbl" 0 -1 0 "bibtex paper_draft"
-  "paper_draft.out" 1775054346.41977 935 03f749ad262ec49af5a2ed7349a251b9 "pdflatex"
-  "paper_draft.tex" 1775054345.4742 8930 8794d1d301405d0e8b7d51054c58ea5b ""
+  "paper_draft.out" 1775054532.49037 935 03f749ad262ec49af5a2ed7349a251b9 "pdflatex"
+  "paper_draft.tex" 1775054490.4626 8930 8794d1d301405d0e8b7d51054c58ea5b ""
   (generated)
   "paper_draft.aux"
   "paper_draft.log"
