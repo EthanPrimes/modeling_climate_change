@@ -1,2 +1,9 @@
 *.DS_Store
 .venv/*
+tex_dir/paper_draft.aux
+tex_dir/paper_draft.fdb_latexmk
+tex_dir/paper_draft.fls
+tex_dir/paper_draft.log
+tex_dir/paper_draft.out
+tex_dir/paper_draft.pdf
+text_dir/paper_draft.synctex.gz
