@@ -46,7 +46,7 @@ gt_data_filtered = np.load("datasets/gt_data_filtered.npy")
 # #   (0-266) # year 1750 - 2015
 # #  ]
 
-gt_data_noNaNs = gt_data_filtered[:, :, 100]
+gt_data_noNaNs = gt_data_filtered[:, :, 100:]
 
 def get_year_noNaNs(year: int):
     """
@@ -156,15 +156,15 @@ def mixture_model_normal(x):
     
     return y
 
-x = X_train.index.to_numpy().flatten()
+xt = X_train.index.to_numpy().flatten()
 
-y = y_train.to_numpy().flatten()
-x_full = np.vstack([x, y]).T
+yt = y_train.to_numpy().flatten()
+x_full = np.vstack([xt, yt]).T
 
 print(x_full)
 
 # Scatter your results
-plt.scatter(x, y)
+plt.scatter(xt, yt)
 
 model = sk.mixture.GaussianMixture(2).fit(x_full)
 # out = model.predict(X_test.index.to_numpy().reshape(-1, 1))
@@ -195,4 +195,19 @@ CB = plt.colorbar(CS, shrink=0.8, extend="both")
 
 plt.title("Negative log-likelihood predicted by a GMM")
 plt.axis("tight")
+plt.show()
+
+lbls = model.predict(xt)
+
+a=5
+plt.scatter(xt, yt, c=lbls)
+
+grp1 = xt[lbls]
+grp0 = xt[~lbls]
+model1 = sk.linear_model.LinearRegression()
+model2 = sk.linear_model.LinearRegression()
+model1.fit(grp1, yt[lbls])
+model2.fit(grp0, yt[~lbls])
+yout = np.where(model.predict(x), model1.predict(x), model2.predict(x))
+plt.plot(x, yout)
 plt.show()
