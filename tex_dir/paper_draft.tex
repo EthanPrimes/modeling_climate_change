@@ -4,7 +4,7 @@
 \documentclass[11pt]{amsart}
 %%% WARNING: Do NOT change the page size, fonts, or margins!  Penalties will apply.
 
-
+\usepackage{verbatim}
 \usepackage{graphicx}
 \usepackage{amssymb,amsmath,amsthm}
 \usepackage{placeins} %enables \FloatBarrier, which prevents figures and tables from going below it.
@@ -45,15 +45,18 @@
 % Explain the scope of the project and how it fits into existing research.
 
 It is well established that Earth's atmospheric temperatures are seasonal.  
-Aside from the four standard seasons associated with Earth's axial tilt, long-range seasonal temperatures are influenced by ocean temperatures and myriad minute details of Earth's orbit (called Milankovitch cycles).  
+Aside from the four standard seasons associated with Earth's axial tilt, long-range seasonal temperatures are influenced by ocean temperatures and myriad minute details of Earth's orbit (called Milankovitch cycles). \cite{milankovitch1941canon}
 While understanding these cycles is still an open area of investigation, they typically act in predictable ways over long periods of time.  
-Within the last 200 years, however, Earth's climate has changed faster than in any time known since the mass extinction event of the dinosaurs [https://www.scientificamerican.com/article/todays-climate-change-proves-much-faster-than-changes-in-past-65-million-years/#:~:text=According%20to%20a%20Stanford%20University%20report%2C%20the,and%20global%20temperatures%20rise%205%20degrees%20Celsius.].
+Within the last 200 years, however, Earth's climate has changed faster than in any time known since the mass extinction event of the dinosaurs \href{https://www.scientificamerican.com/article/todays-climate-change-proves-much-faster-than-changes-in-past-65-million-years/#:~:text=According%20to%20a%20Stanford%20University%20report%2C%20the,and%20global%20temperatures%20rise%205%20degrees%20Celsius}{(Source)}.
 
-With Earth trending toward another mass extinction event, the immediate question becomes:  What has caused such a rapid change in global climate?  
+With the climate changes on Earth trending toward another potential mass extinction event, the immediate question becomes:  What has caused such a rapid change in global climate?  
 This highlights the foundational importance of finding the correlation of Earth's surface/atmospheric temperature and other proposed correlating factors.  
-Recently, there has been increasing momentum in both scientific and societal circles suggesting that Earth's rapid shift in temperature is largely due to a rise in atmospheric $CO^2$ levels.  
+Recently, there has been increasing momentum in both scientific and societal circles suggesting that Earth's rapid shift in temperature is largely due to a rise in atmospheric $CO^2$ levels. \cite{foote1856art, arrhenius1896xxxi, callendar1938artificial, keeling1960concentration, manabe1967thermal, charney1979carbon, santer1996search}
 Moreover, concern has been raised about depleting sea ice temperatures, particularly in polar regions.  
 We therefore begin our analysis by modeling these factors together over time, beginning as far back as data permits, until the present.
+
+Following these initially intriguing questions, there is another core question of at what points our climate has shifted; while we can model the future using past measurements, those models will only work where they understand how that system has fundamentally changed along the way. 
+This allows for more intelligent model selection for the ability to generalize into the future.
 
 
 
@@ -70,9 +73,9 @@ We therefore begin our analysis by modeling these factors together over time, be
 % \label{fig:MeanSquaredError} % for automatic cross referencing
 % \end{figure}
 
-We have gathered data from various sources to analyze global trends and predict future temperatures. For average temperature data recorded throughout the globe, we have used data compiled by Berkeley Earth provided for free on Kaggle. [https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data/data] This dataset contains average temperatures recorded in various countries with both land and ocean measurements recorded monthly. This dataset dates back to 1750, but some earlier years/months were not recorded. Thus, we primarily examine the average land temperature measurements that date back to 1753 in our analysis to avoid issues with missing data. We note that in earlier recorded years, there is much more variation in the recorded average temperature. This may be due to the limited number of locations reporting temperature data.
+We have gathered data from various sources to analyze global trends and predict future temperatures. For average temperature data recorded throughout the globe, we have used data compiled by Berkeley Earth provided for free on \href{https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data/data}{Kaggle}. This dataset contains average temperatures recorded in various countries with both land and ocean measurements recorded monthly. This dataset dates back to 1750, but some earlier years/months were not recorded. Thus, we primarily examine the average land temperature measurements that date back to 1753 in our analysis to avoid issues with missing data. We note that in earlier recorded years, there is much more variation in the recorded average temperature. This may be due to the limited number of locations reporting temperature data.
 
-To grasp the impacts of $CO_2$ and all greenhouse gas emissions on temperature, we use the emissions data provided by Our World in Data [https://ourworldindata.org/co2-and-greenhouse-gas-emissions].
+To grasp the impacts of $CO_2$ and all greenhouse gas emissions on temperature, we use the emissions data provided by \href{https://ourworldindata.org/co2-and-greenhouse-gas-emissions}{Our World in Data}.
 
 
 %% Third Section
