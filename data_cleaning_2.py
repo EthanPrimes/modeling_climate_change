@@ -62,7 +62,8 @@ def get_year_noNaNs(year: int):
     """
     return year - 1850
 
-gt_data_land_temps = gt_data_filtered[0, :, 3:]
+gt_data_land_temps = gt_data_filtered[0, :, 3:][:, 97:]
+print("Land temp data shape:", gt_data_land_temps.shape)
 
 # # eg: gt_data_land_temps[:, get_year_land(1800)] # returns the land average temperatures for every month in the year 1800
 
@@ -93,7 +94,6 @@ avtemp_df = avtemp_df.drop(columns=["Average_Fahrenheit_Temperature"])  # Renami
 # greenhouse gases dataframe by country. Each row has the greenhouse gas emissions for a country by year
 co2ghg_df = pd.read_csv("datasets/co2_ghg.csv")
 
-
 # ========= I did a lot of work to average out when a country recorded 0... I think the 0s are legit and this dataset seems really clean actually =========
 
 # # add the mean value of the countries that didn't record 0 to those that did record 0 for each year
@@ -117,8 +117,16 @@ co2ghg_df = pd.read_csv("datasets/co2_ghg.csv")
 # plt.legend()
 # plt.show()
 
-world_ghg_df = co2ghg_df[co2ghg_df["Country"] == "World"].drop(columns="Country")
-worldghg_numpy = world_ghg_df.to_numpy()[0]
+co2_ghg_df = pd.read_csv("datasets/CO2 Emissions Data.csv")
+world_data = co2_ghg_df[co2_ghg_df['country'] == "World"]
+
+# co2 emissions in the entire world (in millions of tonnes)
+co2_world_df = world_data[["year", "co2"]]
+# ghg emissions in the entire world (in millions of tonnes)
+ghg_world_df = world_data[["year", "total_ghg"]]
+worldghg_numpy = ghg_world_df.to_numpy()[100:-9, :]
+print("worldghg shape:", worldghg_numpy.shape)
+print(worldghg_numpy)
 
 # Sea Ice Levels
 seaice_df = pd.read_csv("datasets/seaice.csv")
@@ -134,7 +142,7 @@ seaice_north_yearly_df = seaice_north_yearly_df.drop(index=[1978, 2019])  # Don'
 seaice_south_yearly_df = seaice_df[seaice_df["hemisphere"] == "south"].groupby("Year")["Extent"].agg(["mean", "std"])
 seaice_south_yearly_df = seaice_south_yearly_df.drop(index=[1978, 2019])
 
-print(avtemp_df)
+print("Avg temperature array:", avtemp_df.to_numpy().shape)
 
 X_train, X_test, y_train, y_test = sk.model_selection.train_test_split(avtemp_df, avtemp_df['temp'])
 
@@ -161,8 +169,10 @@ xt = X_train.index.to_numpy().flatten()
 yt = y_train.to_numpy().flatten()
 x_full = np.vstack([xt, yt]).T
 
-print(x_full)
+# print(x_full)
 
+##############################################################
+# Plot 1: contour plot of all probabilities
 # Scatter your results
 plt.scatter(xt, yt)
 
@@ -177,37 +187,78 @@ ts = np.linspace(1900, 2020, 10)
 # plt.plot(ts, (ts - model.means_[0]) / covs[0])
 # plt.plot(ts, (ts - model.means_[1]) / covs[1])
 
-
-
 # display predicted scores by the model as a contour plot
 x = np.linspace(1900, 2040)
-y = np.linspace(45, 60)
+y = np.linspace(46, 58)
 X, Y = np.meshgrid(x, y)
 XX = np.array([X.ravel(), Y.ravel()]).T
-Z = -model.score_samples(XX)
-Z = Z.reshape(X.shape)
+Z = model.predict_proba(XX)
+Z0 = Z[:, 0].reshape(X.shape)
+Z1 = Z[:, 1].reshape(X.shape)
+print(Z.shape)
 
+Z2 = model.predict_proba(XX).reshape(50, 50, 2)
+plt.scatter(xt, yt, label="Data")
+Z3 = model.score_samples(XX).reshape(50, 50)
+
+# CS = plt.contour(
+#     X, Y, Z0, norm=matplotlib.colors.LogNorm(vmin=.001, vmax=1000.0), levels=np.logspace(-3, 0, 10)
+# )
+CS = plt.contour(
+    X, Y, Z1 * np.exp(Z3), norm=matplotlib.colors.LogNorm(vmin=.0000000001, vmax=1.0), levels=np.logspace(-6, -1, 5), label="Contours, Membership Probability"
+)
 
 CS = plt.contour(
-    X, Y, Z, norm=matplotlib.colors.LogNorm(vmin=.001, vmax=1000.0), levels=np.logspace(-3, 3, 100)
+    X, Y, Z0 * np.exp(Z3), norm=matplotlib.colors.LogNorm(vmin=.0000000001, vmax=1.0), levels=np.logspace(-6, -1, 5)
 )
+
+
+# CS = plt.pcolormesh(X, Y, Z1 * np.exp(Z3))
+
 CB = plt.colorbar(CS, shrink=0.8, extend="both")
 
-plt.title("Negative log-likelihood predicted by a GMM")
+plt.title("GMM Component Membership Probability")
 plt.axis("tight")
-plt.show()
+plt.ylim((46, 58))
+plt.xlim((1900, 2030))
+plt.legend()
+plt.savefig("tex_dir/figures/ggm1.png")
 
-lbls = model.predict(xt)
+plt.clf()
+plt.scatter(xt, yt, label="Data")
+# print((X > 1930).shape)
+# print((Z2[:, :, 0] - Z2[:, :, 1]).shape)
+# print((Z2[:, :, 0] - Z2[:, :, 1])[X < 1930].shape)
+# print(X)
+plt.contour(
+    X[X > 1930].reshape(50, -1), Y[X > 1930].reshape(50, -1), (Z2[:, :, 0] - Z2[:, :, 1])[X > 1930].reshape(50, -1), levels=np.linspace(-.5, .5, 3), label="Component Membership Prob. Bounds"
+)
+plt.title("GMM Difference of Membership Probability Contours")
+plt.axis("tight")
+plt.ylim((46, 58))
+plt.xlim((1900, 2030))
+plt.legend()
+plt.savefig("tex_dir/figures/ggm2.png")
 
-a=5
-plt.scatter(xt, yt, c=lbls)
+plt.clf()
+labels = model.predict(x_full)
+line1 = sk.linear_model.LinearRegression().fit(x_full[labels==0, 0].reshape(-1, 1), x_full[labels==0, 1])
+line2 = sk.linear_model.LinearRegression().fit(x_full[labels==1, 0].reshape(-1, 1), x_full[labels==1, 1])
+plt.scatter(xt, yt, label="Data")
+# plt.plot(x, line1.predict(x.reshape(-1, 1)))
+# plt.plot(x, line2.predict(x.reshape(-1, 1)))
+linx = np.linspace(1900, 2040, 1000)
+plt.plot(linx, np.where(line1.predict(linx.reshape(-1, 1)) > line2.predict(linx.reshape(-1, 1)), line1.predict(linx.reshape(-1, 1)), line2.predict(linx.reshape(-1, 1))), 'k', label="Fit Lines")
+plt.title("GMM-Fit Linear Regressions")
+plt.axis("tight")
+plt.ylim((46, 58))
+plt.xlim((1900, 2030))
+plt.legend()
+plt.savefig("tex_dir/figures/ggm3.png")
 
-grp1 = xt[lbls]
-grp0 = xt[~lbls]
-model1 = sk.linear_model.LinearRegression()
-model2 = sk.linear_model.LinearRegression()
-model1.fit(grp1, yt[lbls])
-model2.fit(grp0, yt[~lbls])
-yout = np.where(model.predict(x), model1.predict(x), model2.predict(x))
-plt.plot(x, yout)
-plt.show()
+
+###################################################################
+# Plot 2
+print(gt_data_land_temps.shape, worldghg_numpy.T.shape)
+co2andlandtemp = np.vstack([gt_data_land_temps, worldghg_numpy.T])
+print(co2andlandtemp.shape)
