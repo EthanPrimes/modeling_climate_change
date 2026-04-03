@@ -1,0 +1,44 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{STW{\etalchar{+}}96}
+
+\bibitem[Arr96]{arrhenius1896xxxi}
+Svante Arrhenius.
+\newblock Xxxi. on the influence of carbonic acid in the air upon the temperature of the ground.
+\newblock {\em The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}, 41(251):237--276, 1896.
+
+\bibitem[CAB{\etalchar{+}}79]{charney1979carbon}
+Jule~G Charney, Akio Arakawa, D~James Baker, Bert Bolin, Robert~E Dickinson, Richard~M Goody, Cecil~E Leith, Henry~M Stommel, and Carl~I Wunsch.
+\newblock Carbon dioxide and climate: a scientific assessment.
+\newblock 1979.
+
+\bibitem[Cal38]{callendar1938artificial}
+Guy~Stewart Callendar.
+\newblock The artificial production of carbon dioxide and its influence on temperature.
+\newblock {\em Quarterly Journal of the Royal Meteorological Society}, 64(275):223--240, 1938.
+
+\bibitem[Foo56]{foote1856art}
+Eunice Foote.
+\newblock Art. xxxi.--circumstances affecting the heat of the sun's rays.
+\newblock {\em American Journal of Science and Arts (1820-1879)}, 22(66):382, 1856.
+
+\bibitem[Kee60]{keeling1960concentration}
+Charles~D Keeling.
+\newblock The concentration and isotopic abundances of carbon dioxide in the atmosphere.
+\newblock {\em Tellus}, 12(2):200--203, 1960.
+
+\bibitem[Mil41]{milankovitch1941canon}
+MM~Milankovitch.
+\newblock Canon of insolation and the iceage problem.
+\newblock {\em Koniglich Serbische Akademice Beograd Special Publication}, 132, 1941.
+
+\bibitem[MW67]{manabe1967thermal}
+Syukuro Manabe and Richard~T Wetherald.
+\newblock Thermal equilibrium of the atmosphere with a given distribution of relative humidity.
+\newblock {\em J. atmos. Sci}, 24(3):241--259, 1967.
+
+\bibitem[STW{\etalchar{+}}96]{santer1996search}
+Benjamin~D Santer, Karl~E Taylor, Tom~ML Wigley, TC~Johns, PD~Jones, DJ~Karoly, JFB Mitchell, AH~Oort, JE~Penner, V~Ramaswamy, et~al.
+\newblock A search for human influences on the thermal structure of the atmosphere.
+\newblock {\em Nature}, 382(6586):39--46, 1996.
+
+\end{thebibliography}
