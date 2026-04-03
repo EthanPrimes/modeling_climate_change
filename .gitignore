@@ -1,4 +1,5 @@
 *.DS_Store
+.DS_Store
 .venv/*
 tex_dir/paper_draft.aux
 tex_dir/paper_draft.fdb_latexmk
