@@ -8,3 +8,5 @@ tex_dir/paper_draft.log
 tex_dir/paper_draft.out
 tex_dir/paper_draft.pdf
 tex_dir/paper_draft.synctex.gz
+tex_dir/paper_draft.bbl
+tex_dir/paper_draft.blg
