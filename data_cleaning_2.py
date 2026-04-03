@@ -217,12 +217,12 @@ CS = plt.contour(
 
 CB = plt.colorbar(CS, shrink=0.8, extend="both")
 
-plt.title("GMM Component Membership Probability")
+plt.title("GMM Component Probability Likelihood")
 plt.axis("tight")
 plt.ylim((46, 58))
 plt.xlim((1900, 2030))
 plt.legend()
-plt.savefig("tex_dir/figures/ggm1.png")
+plt.savefig("tex_dir/figures/gmm1.png")
 
 plt.clf()
 plt.scatter(xt, yt, label="Data")
@@ -238,7 +238,7 @@ plt.axis("tight")
 plt.ylim((46, 58))
 plt.xlim((1900, 2030))
 plt.legend()
-plt.savefig("tex_dir/figures/ggm2.png")
+plt.savefig("tex_dir/figures/gmm2.png")
 
 plt.clf()
 labels = model.predict(x_full)
@@ -254,7 +254,7 @@ plt.axis("tight")
 plt.ylim((46, 58))
 plt.xlim((1900, 2030))
 plt.legend()
-plt.savefig("tex_dir/figures/ggm3.png")
+plt.savefig("tex_dir/figures/gmm3.png")
 
 
 ###################################################################
