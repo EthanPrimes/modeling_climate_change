@@ -124,7 +124,7 @@ We will fit a Gaussian Mixture Model with two components, for simplicity assumin
 
 \par ARIMA models are powerful because their coefficients are easy to interpret, yielding correlation between past measurements and current ones. Similarly, we can use ARIMA models to predict future states, enabling us to cast present results into the future.
 
-\par ARIMA models, while powerful, can be further improved by decomposing time series into three pieces; the trend, the seasonal component, and the remainder. Determining seasonal components and incorporating these into ARIMA models enable them to have more predictive power, since seasonal components are not interfering with general trends and vice versa.
+\par ARIMA models, while powerful, can be further improved by decomposing time series into three pieces; the trend, the seasonal component, and the remainder. Determining seasonal components and incorporating these into ARIMA models enable them to have more predictive power, since seasonal components are not interfering with general trends and vice versa. These extended models are called SARIMA models, and can accomplish everything an ARIMA model can do and more.
 
 
 %%Fourth Section
@@ -135,7 +135,7 @@ We will fit a Gaussian Mixture Model with two components, for simplicity assumin
 % for the problems or questions treated.
 
 % Andy
-\subsection{Mixture Models}[htbp]
+\subsection{Mixture Models}
 \begin{figure}
     \centering
     \includegraphics[width=\columnwidth]{figures/gmm1.png}
@@ -164,18 +164,21 @@ We note the behavior in \ref{fig:gmm1}. From this figure, there is distinct over
 % Nathan
 
 % Ethan
-\par ARIMA models can take a long time to train, and as such it is better to train them on aggregated or averaged data instead of daily data. Computing the optimal parameters $p, d,$ and $q$ using cross-validation to match an ARIMA model to Kalman filter smoothed U.S. average yearly temperature resulted in Figure~\ref{fig:arima_avg_temp}.
+\par ARIMA models can take a long time to train, and as such it is better to train them on aggregated or averaged data instead of daily data. Computing the optimal parameters $p, d,$ and $q$ using cross-validation to match an ARIMA model to Kalman filter smoothed U.S. average yearly temperature resulted in the green line Figure~\ref{fig:sarimax_avg_temp}. This is not a hopeful prediction, as it indicates temperatures will continue to rise in the U.s. across the next century.
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=\columnwidth]{figures/us_temp_arima.png}
-    \caption{An ARIMA(2, 1, 2) model fit to average US land tempratures from 1900-2023.}
-    \label{fig:arima_avg_temp}
+    \includegraphics[scale=0.6]{figures/us_temp_sarimax_arima.png}
+    \caption{An ARIMA(2, 1, 2) and SARIMAX(2, 0, 2, 0, 1, 0, 3) models fit to average US land tempratures from 1900-2024. The parameters were selected using cross-validation.}
+    \label{fig:sarimax_avg_temp}
 \end{figure}
 
 \par This figure clearly demonstrates the increasing temperatures in America over the past few decades, and also demonstrate a worrying possible future trend.
 
-\par While the previous figure demonstrates American temperature trends, SARIMAX models can find relationships between temperature, CO$_2$ levels, and seaice levels. The figure 
+\par While the ARIMA model clearly demonstrates American temperature trends, an obvious question is whether or not natural, multi-year cycles are taking place that cause this triend to look more concerning than it otherwise might. While we cannot rule out decade-long trends that could result in future global cooling, training a SARIMAX model to determine and use seasonal trends in addition to the standard ARIMA techniques resulted in an even more foreboding prediction, in which temperatures are forecasted to be even higher than ARIMA predicted \ref{fig:sarimax_avg_temp}.
+
+
+SARIMAX models can find relationships between temperature, CO$_2$ levels, and seaice levels and incorporate seasonal trends into the regression. The figure 
 
 
 %%Fifth Section
