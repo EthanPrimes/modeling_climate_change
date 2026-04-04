@@ -23,7 +23,7 @@
 
 \begin{abstract}
 % Place abstract here. The abstract summarizes in one paragraph the main question, results, and conclusions drawn from your investigation.  
-\par The goal of this paper is to examine historical climate change data and determine if we can find correlations between CO2 levels, changing temperatures, and shrinking sea ice levels. We also compare climate change with historical events, including volcanic eruptions and the popularization of cars, and try to determine future CO2, temperature, and ice trends.
+\par The goal of this paper is to examine historical climate change data and determine if we can find correlations between CO2 levels, changing temperatures, and shrinking sea ice levels. We also compare climate change with historical events, including volcanic eruptions and the popularization of cars, and try to determine future CO2, temperature, and ice trends. We conclude that the climate is changing rapidly and that the change is not due to volcanic activity.
 
 \end{abstract}
 
@@ -61,25 +61,19 @@ We therefore attempt analysis and predictive modeling of these factors together 
 % Following these initially intriguing questions, there is another core question of at what points our climate has shifted; while we can model the future using past measurements, those models will only work where they understand how that system has fundamentally changed along the way. 
 % This allows for more intelligent model selection for the ability to generalize into the future.
 
-
-
 %%Second Section
 \section{Data} 
-% Discuss the sources, reliability, and suitability of your data for the problems you are addressing.  The dataset should be large enough and rich enough to give reliable, meaningful, and nuanced answers to the questions and problems addressed in your project. Remember that test-train-validation splits for sequential and time-series data are trickier than for tabular data. Be clear about how you handled splitting data into test, training and validation sets, and how you ensured that there was no leakage between test and training set and no other similar data problems.  Be clear about how you handled missing data.  Justify your choices on all these things. 
-
-% \begin{figure} %Put your images in a figure like this 
-% \begin{center}
-%     \includegraphics[width=\textwidth]{Myfig.pdf}
-% \end{center}
-%      \caption[Behavior near $1/\sqrt{5}$]{Plots should be high resolution (pdf, 300 dpi), uncluttered, a reasonable size, and easily readable and understandable.  All figures should have a complete caption that helps the reader make sense of the figure even if they haven't read the paper yet. Here is an example: The generalized aliasing decomposition (GAD) decomposes risk (in black) as the sum of three parts: aliasing (blue) which generally peaks at the  interpolation threshold (when the model complexity matches the number of training points) and decreases to zero as the model complexity increases; model insufficiency (red), which dominates when models are too simple, and is monotonically decreasing as models become more complex; and data insufficiency (green), which is usually zero to the left of the interpolation threshold but increases monotonically as model complexity increases.}
-
-% \label{fig:MeanSquaredError} % for automatic cross referencing
-% \end{figure}
+% Discuss the sources, reliability, and suitability of your data for the problems you are addressing.  The dataset should be large enough and rich enough to give reliable, meaningful, and nuanced answers to the questions and problems addressed in your project. Remember that test-train-validation splits for sequential and time-series data are trickier than for tabular data. Be clear about how you handled splitting data into test, training and validation sets, and how you ensured that there was no leakage between test and training set and no other similar data problems.  Be clear about how you handled missing data.  Justify your choices on all these things.
 
 We have gathered data from various sources to analyze global trends and predict future temperatures. For average temperature data recorded throughout the globe, we have used data compiled by Berkeley Earth provided for free on \href{https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data/data}{Kaggle}. This dataset contains average temperatures recorded in various countries with both land and ocean measurements recorded monthly. This dataset dates back to 1750, but some earlier years/months were not recorded. Thus, we primarily examine the average land temperature measurements that date back to 1753 in our analysis to avoid issues with missing data. We note that in earlier recorded years, there is much more variation in the recorded average temperature. This may be due to the limited number of locations reporting temperature data.
 
-To grasp the impacts of $CO_2$ and all greenhouse gas emissions on temperature, we use the emissions data provided by \href{https://ourworldindata.org/co2-and-greenhouse-gas-emissions}{Our World in Data} that contains most emissions caused by humans over the last 250+ years. 
-To compare this to $CO_2$ emissions caused by volcanoes we use data collected by various experts in the area. \cite{fischer2019emissions}
+Another dataset contained averaged yearly temperatures from various points in the mainland united states from $1900$ to $2023$ \cite{nguyen2023avgtemp}. This dataset required no cleaning.
+
+To grasp the impacts of CO$_2$ and all greenhouse gas emissions on temperature, we use the emissions data provided by \href{https://ourworldindata.org/co2-and-greenhouse-gas-emissions}{Our World in Data} that contains most emissions caused by humans over the last 250+ years.
+
+To compare this to CO$_2$ emissions caused by volcanoes we use data collected by various experts in the area \cite{fischer2019emissions}.
+
+We also examined sea ice levels in both the north and the south of the globe \cite{fetterer2017seaice}. This dataset, which comes from the National Snow and Ice Data Center (NSIDC), did not require much cleaning, although we did have to build features including total ice levels and average yearly ice levels.
 
 
 %% Third Section
