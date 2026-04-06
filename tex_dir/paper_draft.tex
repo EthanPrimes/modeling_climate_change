@@ -123,6 +123,11 @@ The Kalman filter provides the statistically optimal estimate and is especially 
 \par By pairing the Kalman filter with other methods, such as ARIMA (see Subsection \ref{met:ARIMA}), we may use exogenous data (e.g., CO$_2$ emissions) to make plausible forecasts for future global average temepratures.
 
 % Nathan
+\subsection{Seasonal Time Series}
+One tool we utilized in order to analyze the overall trend for temperature increase involved modeling with time series seasonal analysis. 
+We perform this analysis using the world average temperatures over the last 200+ years as cited above.
+After computing a moving average, we compute the seasonal average with the detrended data.
+Finally, we can compute the remainder to verify the validity of this seasonal analysis.
 
 % Ethan
 \subsection{ARIMA Models}
@@ -204,6 +209,32 @@ Figure \ref{fig:Kalman_Exog} illustrates the change in average temperature corre
 \end{figure}
 
 % Nathan
+\subsection{Seasonal Time Series}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/season.png}
+    \caption{Seasonal Average Temperatures Computed With Detrended Data}
+    \label{fig:season}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/trend.png}
+    \caption{Moving Average Temperatures (Trend)}
+    \label{fig:trend}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/remainder.png}
+    \caption{Remainder Temperatures (Data - Trend - Seasonal)}
+    \label{fig:remainder}
+\end{figure}
+
+We may observe that using our trend and seasonal components \ref{fig:season} \ref{fig:trend}, we can compute a remainder \ref{fig:remainder} that has mean approximately zero as the time series continues through 2024.
+The inconsistency in the remainder in previous years could be due to the fact that less locations were recording temperature data for a given year.
+With the increase in consistency and accurate data, it is clear that temperatures are in fact rising as shown in the plots created by this analysis.
 
 % Ethan
 \subsection{ARIMA Model}
