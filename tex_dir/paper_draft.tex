@@ -51,9 +51,9 @@ Within the last 200 years, however, Earth's climate has changed faster than in a
 
 With the climate changes on Earth trending toward another potential mass extinction event, the immediate question becomes:  What has caused such a rapid change in global climate?  
 This highlights the foundational importance of finding the correlation of Earth's surface/atmospheric temperature and other proposed correlating factors.  
-Recently, there has been increasing momentum in both scientific and societal circles suggesting that Earth's rapid shift in temperature is largely due to a rise in atmospheric CO$_2$ levels. \cite{foote1856art, arrhenius1896xxxi, callendar1938artificial, keeling1960concentration, manabe1967thermal, charney1979carbon, santer1996search}
-Moreover, concern has been raised about depleting sea ice temperatures, particularly in polar regions.
-Previous models have forecasted drastic changes in 
+Recently, there has been increasing momentum in both scientific and societal circles suggesting that Earth's rapid shift in temperature is largely due to a rise in atmospheric CO$_2$ levels \cite{foote1856art, arrhenius1896xxxi, callendar1938artificial, keeling1960concentration, manabe1967thermal, charney1979carbon, santer1996search}.
+Moreover, concern has been raised about depleting sea ice levels, particularly in polar regions.
+% Previous models have forecasted drastic changes in 
 Abstracted from the various factors lies the core question: how scared should we be of the trends indicated by the changes we see in the climate?
 We therefore attempt analysis and predictive modeling of these factors together over time, beginning as far back as data permits, until the present, and use these models to predict future behavior.
 
@@ -141,7 +141,7 @@ Finally, we can compute the remainder to verify the validity of this seasonal an
 
 \par ARIMA models are powerful because their coefficients are easy to interpret, yielding correlation between past measurements and current ones. Similarly, we can use ARIMA models to predict future states, enabling us to cast present results into the future.
 
-\par ARIMA models, while powerful, can be further improved by decomposing time series into three pieces; the trend, the seasonal component, and the remainder. Determining seasonal components and incorporating these into ARIMA models enable them to have more predictive power, since seasonal components are not interfering with general trends and vice versa. These extended models are called SARIMA models, and can accomplish everything an ARIMA model can do and more.
+\par These models, while powerful, can be further improved by decomposing time series into three pieces; the trend, the seasonal component, and the remainder. Determining seasonal components and incorporating these into ARIMA models enable them to have more predictive power, since seasonal components are not interfering with general trends and vice versa. These extended models are called SARIMA models, and can accomplish everything an ARIMA model can do and more.
 
 
 %%Fourth Section
@@ -239,21 +239,20 @@ With the increase in consistency and accurate data, it is clear that temperature
 % Ethan
 \subsection{ARIMA Model}
 \label{Res:ARIMA}
-\par ARIMA models can take a long time to train, and as such it is better to train them on aggregated or averaged data instead of daily data. Computing the optimal parameters $p, d,$ and $q$ using cross-validation to match an ARIMA model to Kalman filter smoothed U.S. average yearly temperature resulted in the green line Figure~\ref{fig:sarimax_avg_temp}. This is not a hopeful prediction, as it indicates temperatures will continue to rise in the U.s. across the next century.
+\par ARIMA models can take a long time to train, and as such it is better to train them on aggregated or averaged data instead of daily data. Computing the optimal parameters $p, d,$ and $q$ using cross-validation to match an ARIMA model to Kalman filter smoothed U.S. average yearly temperature resulted in the green line Figure~\ref{fig:sarimax_avg_temp}. This is not a hopeful prediction, as it indicates temperatures will continue to rise in the U.S. across the next century.
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.475\textwidth]{figures/us_temp_sarimax_arima.png}
-    \caption{An ARIMA(2, 1, 2) and SARIMAX(2, 0, 2, 0, 1, 0, 3) models fit to average US land tempratures from 1900-2024. The parameters were selected using cross-validation.}
+    \caption{An ARIMA(2, 1, 2) and SARIMAX(2, 0, 2, 0, 1, 0, 3) models fit to averaged US land tempratures from 1900-2024. The parameters were selected using cross-validation.}
     \label{fig:sarimax_avg_temp}
 \end{figure}
 
-\par This figure clearly demonstrates the increasing temperatures in America over the past few decades, and also demonstrate a worrying possible future trend.
+\par Figure~\ref{fig:sarimax_avg_temp} clearly demonstrates the increasing temperatures in America over the past few decades, and also demonstrate a worrying possible future trend.
 
-\par While the ARIMA model clearly demonstrates American temperature trends, an obvious question is whether or not natural, multi-year cycles are taking place that cause this triend to look more concerning than it otherwise might. While we cannot rule out decade-long trends that could result in future global cooling, training a SARIMAX model to determine and use seasonal trends in addition to the standard ARIMA techniques resulted in an even more foreboding prediction, in which temperatures are forecasted to be even higher than ARIMA predicted \ref{fig:sarimax_avg_temp}.
+\par While the ARIMA model clearly demonstrates American temperature trends, an obvious question is whether or not natural, multi-year cycles are taking place that cause this triend to look more concerning than it otherwise might. While we cannot rule out decade-long trends that could result in future global cooling, training a SARIMAX model to determine and use seasonal trends in addition to the standard ARIMA techniques resulted in an even more foreboding prediction, in which temperatures are forecasted to be even higher than ARIMA predicted, as indicated by the red line.
 
-
-SARIMAX models can find relationships between temperature, CO$_2$ levels, and seaice levels and incorporate seasonal trends into the regression. The figure 
+% \par SARIMAX models can find relationships between temperature, CO$_2$ levels, and seaice levels and incorporate seasonal trends into the regression. The figure 
 
 
 %%Fifth Section
