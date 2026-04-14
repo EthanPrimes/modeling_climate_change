@@ -75,6 +75,10 @@ To compare this to CO$_2$ emissions caused by volcanoes we use data collected by
 
 We also examined sea ice levels in both the north and the south of the globe \cite{fetterer2017seaice}. This dataset, which comes from the National Snow and Ice Data Center (NSIDC), did not require much cleaning, although we did have to build features including total ice levels and average yearly ice levels.
 
+We are considering time series data, and wish to predict future data.
+In this context, train-test splits without randomization may be helpful for model infrastructure selection. 
+However, as the most recent data is likely to be most informative, we use all available data to train our final models displayed in the paper in the interest of predicting future states.
+
 
 %% Third Section
 \section{Methods} 
