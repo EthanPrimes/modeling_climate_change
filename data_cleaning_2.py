@@ -217,7 +217,7 @@ CS = plt.contour(
 
 # CB = plt.colorbar(CS, shrink=0.8, extend="both")
 
-plt.title("GMM Component Probability Likelihood", fontsize=22)
+plt.title("GMM Component Likelihood", fontsize=22)
 plt.axis("tight")
 plt.ylim((46, 58))
 plt.ylabel("Degrees (F)", fontsize=20)
@@ -236,7 +236,7 @@ plt.scatter(xt, yt, label="Data")
 plt.contour(
     X[X > 1930].reshape(50, -1), Y[X > 1930].reshape(50, -1), (Z2[:, :, 0] - Z2[:, :, 1])[X > 1930].reshape(50, -1), levels=np.linspace(-.5, .5, 3), label="Component Membership Prob. Bounds"
 )
-plt.title("GMM Difference of Membership Probability Contours", fontsize=22)
+plt.title("GMM Membership Contours", fontsize=22)
 plt.axis("tight")
 plt.ylim((46, 58))
 plt.ylabel("Degrees (F)", fontsize=20)
