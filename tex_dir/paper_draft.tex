@@ -71,7 +71,7 @@ Another dataset contained averaged yearly temperatures from various points in th
 
 To grasp the impacts of CO$_2$ and all greenhouse gas emissions on temperature, we use the emissions data provided by \cite{co2_ghg_kaggle} that contains most emissions caused by humans over the last 250+ years. The first iteration of this dataset that we used came from Kaggle, but after comparing the given values to their claimed source, we realized the Kaggle dataset had changed values that made United States pollution look worse and Chinese pollution look better than they truly are.
 
-To compare this to CO$_2$ emissions caused by volcanoes we use data collected by various experts in the area \cite{fischer2019emissions}.
+To compare this to CO$_2$ emissions caused by volcanoes we use data collected by various experts in the area \cite{fischer2019emissions}. However, the amount of CO$_2$ released by volcanoes was so miniscule compared to the amount released by humans that we didn't feel it was useful to examine. In the time intervals of the dataset, volcanoes produced less than 1\% as much CO$_2$ as humans.
 
 We also examined sea ice levels in both the north and the south of the globe \cite{fetterer2017seaice}. This dataset, which comes from the National Snow and Ice Data Center (NSIDC), did not require much cleaning, although we did have to build features including total ice levels and average yearly ice levels.
 
@@ -278,7 +278,7 @@ With the increase in consistency and accurate data, it is clear that temperature
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.55\textwidth]{figures/us_temp_sarimax_arima.png}
+    \includegraphics[width=0.65\textwidth]{figures/us_temp_sarimax_arima.png}
     \caption{An ARIMA(2, 1, 2) and SARIMAX(2, 0, 2, 0, 1, 0, 3) models fit to averaged US land tempratures from 1900-2024. The parameters were optimally selected from a gridsearch. By incorporating long-term seasonal trends, the future prediction of US average land temperatures actually worsen.}
     \label{fig:sarimax_avg_temp}
 \end{figure}
@@ -323,7 +323,7 @@ Rather, we encourage all people everywhere to develop a greater awareness of the
 % Describe the final conclusions that you draw from your computations, results, and analysis. 
 
 \par From our combined analysis, we find that Earth's average temperature has continuously and rapidly trended upward over the last 75 years.
-  Our models indicate this trend will continue without significant intervention, particularly in human CO$_2$ emissions.
+  Our models indicate this trend will continue without significant intervention, particularly in human CO$_2$ emissions. Similarly, we found that volcanoes produced less than 1\% of the amount of CO$_2$ that humans have in the time intervals that we examined, implying that they are likely not the cause of significant climate change.
 
 \par According to our analysis, US average temperatures are forecast to reach 56 degrees Fahrenheit by 2100 at our current trajectory (see Figure~\ref{fig:sarimax_avg_temp}) -- marking a 4.5-degree increase from 1950.
   Contrast this with the Kalman forecast for declining CO$_2$ emissions (see Figure~\ref{fig:Kalman_Exog}).
