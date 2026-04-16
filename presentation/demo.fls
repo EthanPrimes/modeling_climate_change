@@ -432,6 +432,7 @@ INPUT demo.nav
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-t1.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1.tfm
@@ -465,8 +466,6 @@ INPUT ./assets/background.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-t1.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/google/roboto/Roboto-Bold-lf-t1.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1--base.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/google/roboto/Roboto-Regular-lf-t1.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-t1--base.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/google/roboto/Roboto-Regular-lf-t1.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Regular-lf-t1--base.tfm
 INPUT ./assets/hot_meme.png
