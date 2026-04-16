@@ -75,6 +75,10 @@ To compare this to CO$_2$ emissions caused by volcanoes we use data collected by
 
 We also examined sea ice levels in both the north and the south of the globe \cite{fetterer2017seaice}. This dataset, which comes from the National Snow and Ice Data Center (NSIDC), did not require much cleaning, although we did have to build features including total ice levels and average yearly ice levels.
 
+We are considering time series data, and wish to predict future data.
+In this context, train-test splits without randomization may be helpful for model infrastructure selection. 
+However, as the most recent data is likely to be most informative, we use all available data to train our final models displayed in the paper in the interest of predicting future states.
+
 
 %% Third Section
 \section{Methods} 
@@ -174,11 +178,11 @@ Finally, we can compute the remainder to verify the validity of this seasonal an
     \label{fig:gmm3}
 \end{figure}
 
-We note the behavior in \ref{fig:gmm1}. From this figure, there is distinct overlap between the components, but the component to the right appears to indicate a distinctly increased upwards trend. This behavior is indicative of a shift in the underlying system generating the involved data. \ref{fig:gmm2} indicates that additional data upwards and to the right is more likely to have been produced by a new, fundamentally distinct system, with \ref{fig:gmm3} indicating that the present trend indicates a $1\deg$F increase in US temperatures over each 20 years to come.
+We note the behavior in Figure~\ref{fig:gmm1}. From this figure, there is distinct overlap between the components, but the component to the right appears to indicate a distinctly increased upwards trend. This behavior is indicative of a shift in the underlying system generating the involved data. Figure~\ref{fig:gmm2} indicates that additional data upwards and to the right is more likely to have been produced by a new, fundamentally distinct system, with Figure~\ref{fig:gmm3} indicating that the present trend indicates a $1\deg$F increase in US temperatures over each 20 years to come.
 
 % Japheth
 \subsection{Kalman Filter}
-\par Pictured in Figure \ref{fig:Kalman_Full} is a standard Kalman filter fit to all available temperature data from 1900 -- 2017.
+\par Pictured in Figure~\ref{fig:Kalman_Full} is a standard Kalman filter fit to all available temperature data from 1900 -- 2017.
 
 \begin{figure}[htbp]
     \centering
@@ -188,7 +192,7 @@ We note the behavior in \ref{fig:gmm1}. From this figure, there is distinct over
 \end{figure}
 
 \par Leveraging the Kalman filter, we may apply a simple local linear model to predict future temperature trends.
-Pictured in Figure \ref{fig:Kalman_Forecast_LLM}, we train on temperature data from 1900 -- 1999 to forecast temperature from 2000 -- 2017 and compare against later temperature observations.
+Pictured in Figure~\ref{fig:Kalman_Forecast_LLM}, we train on temperature data from 1900 -- 1999 to forecast temperature from 2000 -- 2017 and compare against later temperature observations.
 
 \begin{figure}[htbp]
     \centering
@@ -199,7 +203,7 @@ Pictured in Figure \ref{fig:Kalman_Forecast_LLM}, we train on temperature data f
 
 \par What if we want to estimate the impact of conservation efforts?
 Once again, we may run the Kalman filter (via an ARIMA model, see Subsection \ref{Res:ARIMA}) to predict the corresponding change in average temperature by annual reductions in human CO$_2$ emissions.
-Figure \ref{fig:Kalman_Exog} illustrates the change in average temperature corresponding to a 3\% annual reduction in human CO$_2$ emissions over the span of 50 years.
+Figure~\ref{fig:Kalman_Exog} illustrates the change in average temperature corresponding to a 3\% annual reduction in human CO$_2$ emissions over the span of 50 years.
 
 \begin{figure}[htbp]
     \centering
@@ -232,7 +236,7 @@ Figure \ref{fig:Kalman_Exog} illustrates the change in average temperature corre
     \label{fig:remainder}
 \end{figure}
 
-We may observe that using our trend and seasonal components \ref{fig:season} \ref{fig:trend}, we can compute a remainder \ref{fig:remainder} that has mean approximately zero as the time series continues through 2024.
+We may observe that using our trend and seasonal components in Figures \ref{fig:season} and \ref{fig:trend}, we can compute a remainder (shown in Figure~\ref{fig:remainder}) that has mean approximately zero as the time series continues through 2024.
 The inconsistency in the remainder in previous years could be due to the fact that less locations were recording temperature data for a given year.
 With the increase in consistency and accurate data, it is clear that temperatures are in fact rising as shown in the plots created by this analysis.
 
@@ -288,8 +292,8 @@ Rather, we encourage all people everywhere to develop a greater awareness of the
 \par From our combined analysis, we find that Earth's average temperature has continuously and rapidly trended upward over the last 75 years.
   Our models indicate this trend will continue without significant intervention, particularly in human CO$_2$ emissions.
 
-\par According to our analysis, US average temperatures are forecast to reach 56 degrees Fahrenheit by 2100 at our current trajectory (see Figure \ref{fig:sarimax_avg_temp}) -- marking a 4.5-degree increase from 1950.
-  Contrast this with the Kalman forecast for declining CO$_2$ emissions (see Figure \ref{fig:Kalman_Exog}).
+\par According to our analysis, US average temperatures are forecast to reach 56 degrees Fahrenheit by 2100 at our current trajectory (see Figure~\ref{fig:sarimax_avg_temp}) -- marking a 4.5-degree increase from 1950.
+  Contrast this with the Kalman forecast for declining CO$_2$ emissions (see Figure~\ref{fig:Kalman_Exog}).
   With just a 3\% annual reduction in CO$_2$ emissions, we find US average temperatures are forecast to return below 52 degrees Fahrenheit (consistent with average temperatures during the early 20th-century) within a five-decade timespan.
 
 \par In short, our analysis paints a clear picture: reducing carbon emissions may effectively reverse the unprecedented increase in global average temperatures.

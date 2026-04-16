@@ -215,11 +215,13 @@ CS = plt.contour(
 
 # CS = plt.pcolormesh(X, Y, Z1 * np.exp(Z3))
 
-CB = plt.colorbar(CS, shrink=0.8, extend="both")
+# CB = plt.colorbar(CS, shrink=0.8, extend="both")
 
 plt.title("GMM Component Probability Likelihood")
 plt.axis("tight")
 plt.ylim((46, 58))
+plt.ylabel("Average Yearly Land Temp ($\degree$F)")
+plt.xlabel("Year")
 plt.xlim((1900, 2030))
 plt.legend()
 plt.savefig("tex_dir/figures/gmm1.png")
@@ -236,6 +238,8 @@ plt.contour(
 plt.title("GMM Difference of Membership Probability Contours")
 plt.axis("tight")
 plt.ylim((46, 58))
+plt.ylabel("Average Yearly Land Temp ($\degree$F)")
+plt.xlabel("Year")
 plt.xlim((1900, 2030))
 plt.legend()
 plt.savefig("tex_dir/figures/gmm2.png")
@@ -252,6 +256,8 @@ plt.plot(linx, np.where(line1.predict(linx.reshape(-1, 1)) > line2.predict(linx.
 plt.title("GMM-Fit Linear Regressions")
 plt.axis("tight")
 plt.ylim((46, 58))
+plt.ylabel("Average Yearly Land Temp ($\degree$F)")
+plt.xlabel("Year")
 plt.xlim((1900, 2030))
 plt.legend()
 plt.savefig("tex_dir/figures/gmm3.png")
