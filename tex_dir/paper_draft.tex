@@ -69,7 +69,7 @@ We have gathered data from various sources to analyze global trends and predict 
 
 Another dataset contained averaged yearly temperatures from various points in the mainland United States from 1900 to 2023 \cite{nguyen2023avgtemp}. This dataset required no cleaning.
 
-To grasp the impacts of CO$_2$ and all greenhouse gas emissions on temperature, we use the emissions data provided by \href{https://ourworldindata.org/co2-and-greenhouse-gas-emissions}{Our World in Data} that contains most emissions caused by humans over the last 250+ years. The first iteration of this dataset that we used came from Kaggle, but after comparing the given values to their claimed source, we realized the Kaggle dataset had changed values that made American pollution look worse and Chinese pollution look better than they truly are.
+To grasp the impacts of CO$_2$ and all greenhouse gas emissions on temperature, we use the emissions data provided by \href{https://ourworldindata.org/co2-and-greenhouse-gas-emissions}{Our World in Data} that contains most emissions caused by humans over the last 250+ years. The first iteration of this dataset that we used came from Kaggle, but after comparing the given values to their claimed source, we realized the Kaggle dataset had changed values that made United States pollution look worse and Chinese pollution look better than they truly are.
 
 To compare this to CO$_2$ emissions caused by volcanoes we use data collected by various experts in the area \cite{fischer2019emissions}.
 
@@ -145,7 +145,7 @@ Finally, we can compute the remainder to verify the validity of this seasonal an
 
 \par ARIMA models are powerful because their coefficients are easy to interpret, yielding correlation between past measurements and current ones. Similarly, we can use ARIMA models to predict future states, enabling us to cast present results into the future.
 
-\par These models, while powerful, can be further improved by decomposing time series into three pieces; the trend, the seasonal component, and the remainder. Determining seasonal components and incorporating these into ARIMA models enable them to have more predictive power, since seasonal components are not interfering with general trends and vice versa. These extended models are called SARIMA models, and can accomplish everything an ARIMA model can do and more.
+\par These models, while powerful, can be further improved by decomposing time series into three pieces: the trend, the seasonal component, and the remainder. Determining seasonal components and incorporating these into ARIMA models enable them to have more predictive power, since seasonal components are not interfering with general trends and vice versa. These extended models are called SARIMA models, and can accomplish everything an ARIMA model can do and more.
 
 
 %%Fourth Section
@@ -243,7 +243,7 @@ With the increase in consistency and accurate data, it is clear that temperature
 % Ethan
 \subsection{ARIMA Model}
 \label{Res:ARIMA}
-\par ARIMA models can take a long time to train, and as such it is better to train them on aggregated or averaged data instead of daily data. Computing the optimal parameters $p, d,$ and $q$ using cross-validation to match an ARIMA model to Kalman filter smoothed U.S. average yearly temperature resulted in the green line Figure~\ref{fig:sarimax_avg_temp}. This is not a hopeful prediction, as it indicates temperatures will continue to rise in the U.S. across the next century.
+\par ARIMA models can take a long time to train, and as such it is better to train them on aggregated or averaged data instead of daily data. Computing the optimal parameters $p, d,$ and $q$ using a grid search to match an ARIMA model to Kalman filter smoothed U.S. average yearly temperature resulted in the green line Figure~\ref{fig:sarimax_avg_temp}. We also trained the model on only the first 80\% of the shown time series data, and still our predictions matched the smoothed data very closely.
 
 \begin{figure}[htbp]
     \centering
@@ -254,7 +254,7 @@ With the increase in consistency and accurate data, it is clear that temperature
 
 \par Figure~\ref{fig:sarimax_avg_temp} clearly demonstrates the increasing temperatures in America over the past few decades, and also demonstrate a worrying possible future trend.
 
-\par While the ARIMA model clearly demonstrates American temperature trends, an obvious question is whether or not natural, multi-year cycles are taking place that cause this triend to look more concerning than it otherwise might. While we cannot rule out decade-long trends that could result in future global cooling, training a SARIMAX model to determine and use seasonal trends in addition to the standard ARIMA techniques resulted in an even more foreboding prediction, in which temperatures are forecasted to be even higher than ARIMA predicted, as indicated by the red line.
+\par While the ARIMA model clearly demonstrates American temperature trends, an obvious question is whether or not natural, multi-year cycles are taking place that cause this triend to look more concerning than it otherwise might. While we cannot rule out decade-long trends that could result in future global cooling, training a SARIMAX model to determine and use seasonal trends in addition to the standard ARIMA techniques resulted in an even more foreboding prediction, in which temperatures are forecasted to be even higher than ARIMA predicted, as indicated by the red line in Figure~\ref{fig:sarimax_avg_temp}.
 
 % \par SARIMAX models can find relationships between temperature, CO$_2$ levels, and seaice levels and incorporate seasonal trends into the regression. The figure 
 
