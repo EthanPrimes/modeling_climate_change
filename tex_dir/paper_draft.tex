@@ -73,8 +73,6 @@ To grasp the impacts of CO$_2$ and all greenhouse gas emissions on temperature, 
 
 To compare this to CO$_2$ emissions caused by volcanoes we use data collected by various experts in the area \cite{fischer2019emissions}. However, the amount of CO$_2$ released by volcanoes was so miniscule compared to the amount released by humans that we didn't feel it was useful to examine. In the time intervals of the dataset, volcanoes produced less than 1\% as much CO$_2$ as humans.
 
-We also examined sea ice levels in both the north and the south of the globe \cite{fetterer2017seaice}. This dataset, which comes from the National Snow and Ice Data Center (NSIDC), did not require much cleaning, although we did have to build features including total ice levels and average yearly ice levels.
-
 We are considering time series data, and wish to predict future data.
 In this context, train-test splits without randomization may be helpful for model infrastructure selection. 
 However, as the most recent data is likely to be most informative, we use all available data to train our final models displayed in the paper in the interest of predicting future states.
@@ -267,9 +265,9 @@ Figure~\ref{fig:Kalman_Exog} illustrates the change in average temperature corre
     \label{fig:decomposition}
 \end{figure}
 
-We may observe that using our trend and seasonal components in Figures \ref{fig:season} and \ref{fig:trend}, we can compute a remainder (shown in Figure~\ref{fig:remainder}) that has mean approximately zero as the time series continues through 2024.
+We may observe that using our trend and seasonal components in Figures \ref{fig:season} and \ref{fig:trend}, we can compute a remainder (shown in Figure~\ref{fig:remainder}) that approximately has mean zero as the time series continues through 2024.
 The inconsistency in the remainder in previous years could be due to the fact that less locations were recording temperature data for a given year.
-With the increase in consistency and accurate data, it is clear that temperatures are in fact rising as shown in the plots created by this analysis.
+With the increase in consistency and accurate data, it is clear that the temperature trend is increasing, as shown in the plots.
 
 % Ethan
 \subsection{ARIMA Model}
@@ -279,7 +277,7 @@ With the increase in consistency and accurate data, it is clear that temperature
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.65\textwidth]{figures/us_temp_sarimax_arima.png}
-    \caption{An ARIMA(2, 1, 2) and SARIMAX(2, 0, 2, 0, 1, 0, 3) models fit to averaged US land tempratures from 1900-2024. The parameters were optimally selected from a gridsearch. By incorporating long-term seasonal trends, the future prediction of US average land temperatures actually worsen.}
+    \caption{An ARIMA(2, 1, 2) and SARIMAX(2, 0, 2, 0, 1, 0, 3) models fit to averaged US land tempratures from 1900-2024. The parameters were optimally selected from a gridsearch. By incorporating long-term seasonal trends in the SARIMAX model, the future prediction of US average land temperatures actually worsen.}
     \label{fig:sarimax_avg_temp}
 \end{figure}
 
@@ -301,18 +299,18 @@ With the increase in consistency and accurate data, it is clear that temperature
 % How could that be prevented or controlled?
 % What other ethical implications does your work have?  
 
-Few modern issues are as divisive and wide-reaching as that of our combined influence on the global climate.
+Few modern issues are as divisive and wide-reaching as that of human influence on the global climate.
 Consequently, it is essential for any investigator to carefully analyze their methods before making any definitive claims.
 While the collection of climate data is generally ethical and free of any harm, the ignorance of the story the data indicate is not.
 
-With such a heated debate being had globally and myriad conflicting interests, we emphasize that our results do not assign culpability to any individual person, industry or nation.
-Instead, the only proper interpretation of our results is for all people everywhere to recognize the global trends correlated to human CO$_2$ emissions and hold themselves individually responsible for whatever impact they may be able to make on their global environment.
+With such a heated debate being had globally, and myriad conflicting interests, we emphasize that our results do not assign culpability to any individual person, industry or nation.
+Instead, the only proper interpretation of our results is for all people everywhere to recognize the global trends correlated to human CO$_2$ emissions and hold themselves individually responsible for whatever impact they may be able to make on their environment.
 
 To avoid misuse and misunderstanding of the data, we emphasize that global climate trends are noisy.
-That is, it may take decades to gain a clear picture of climate trends today.
+It may take decades to gain a clear picture of climate trends today.
 Thus, while daily weather events may dominate the headlines, we urge all readers to keep in mind that climate change is a long-term threat and requires longitudinal context to fully understand.
 
-Similarly, we remind the reader that one of the datasets we found on Kaggle contained incorrect data that made the United States appear to be contributing more, and China less, pollution than they are truly creating. The fact that we discovered one such incorrect dataset indicates that there are likely many more that we have not, which begs the question if this and other datasets may be used for propaganda purposes.
+Similarly, we remind the reader that one of the datasets we found on Kaggle contained modified data that made the United States appear to be contributing more pollution than they are truly creating. The fact that we discovered one such incorrect dataset indicates that there are likely many more that we have not, which begs the question if this and other datasets may be being used for propaganda purposes.
 
 In analyzing our results, we do not hope to single any individual or group out for their actions.
 Rather, we encourage all people everywhere to develop a greater awareness of the long-term climate trends and what we each may do individually to improve our shared environment.
