@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  16 APR 2026 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  16 APR 2026 17:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1014,97 +1014,97 @@ Package pdftex.def Info: assets/background.jpg  used on input line 121.
 [4
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 131.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 133.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 131.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 133.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
-(Font)              `T1/Roboto-LF/regular/it' on input line 131.
+(Font)              `T1/Roboto-LF/regular/it' on input line 133.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 131.
+(Font)              scaled to size 9.0pt on input line 133.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
-(Font)              `T1/Roboto-LF/regular/it' on input line 131.
+(Font)              `T1/Roboto-LF/regular/it' on input line 133.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 131.
+(Font)              scaled to size 6.0pt on input line 133.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
-(Font)              `T1/Roboto-LF/regular/it' on input line 131.
+(Font)              `T1/Roboto-LF/regular/it' on input line 133.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 5.0pt on input line 131.
-<assets/fake_kaggle_data.png, id=47, 397.485pt x 578.16pt>
-File: assets/fake_kaggle_data.png Graphic file (type png)
-<use assets/fake_kaggle_data.png>
-Package pdftex.def Info: assets/fake_kaggle_data.png  used on input line 131.
-(pdftex.def)             Requested size: 138.39601pt x 201.3092pt.
-File: assets/byu_logo.jpg Graphic file (type jpg)
-<use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 131.
-(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
-
-
-File: assets/background.jpg Graphic file (type jpg)
-<use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 131.
-(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
-[5
-
- <./assets/fake_kaggle_data.png>]
-<assets/real_co2_data.png, id=57, 1000.73875pt x 575.14874pt>
-File: assets/real_co2_data.png Graphic file (type png)
-<use assets/real_co2_data.png>
-Package pdftex.def Info: assets/real_co2_data.png  used on input line 141.
-(pdftex.def)             Requested size: 291.35739pt x 167.44707pt.
-File: assets/byu_logo.jpg Graphic file (type jpg)
-<use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 141.
-(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
-
-
-File: assets/background.jpg Graphic file (type jpg)
-<use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 141.
-(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
-[6
-
- <./assets/real_co2_data.png>]
-File: assets/byu_logo.jpg Graphic file (type jpg)
-<use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 145.
-(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
-
-
-File: assets/background.jpg Graphic file (type jpg)
-<use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 145.
-(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
-[7
-
-]
-<assets/volcano_co2.png, id=74, 591.20876pt x 457.71pt>
+(Font)              scaled to size 5.0pt on input line 133.
+<assets/volcano_co2.png, id=47, 591.20876pt x 457.71pt>
 File: assets/volcano_co2.png Graphic file (type png)
 <use assets/volcano_co2.png>
-Package pdftex.def Info: assets/volcano_co2.png  used on input line 157.
+Package pdftex.def Info: assets/volcano_co2.png  used on input line 133.
 (pdftex.def)             Requested size: 254.93564pt x 197.3702pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 157.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 133.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 157.
+Package pdftex.def Info: assets/background.jpg  used on input line 133.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
-[8
+[5
 
  <./assets/volcano_co2.png>]
 File: assets/volcano_co2.png Graphic file (type png)
 <use assets/volcano_co2.png>
-Package pdftex.def Info: assets/volcano_co2.png  used on input line 157.
+Package pdftex.def Info: assets/volcano_co2.png  used on input line 133.
 (pdftex.def)             Requested size: 254.93564pt x 197.3702pt.
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 133.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 133.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[6
+
+]
+<assets/fake_kaggle_data.png, id=64, 397.485pt x 578.16pt>
+File: assets/fake_kaggle_data.png Graphic file (type png)
+<use assets/fake_kaggle_data.png>
+Package pdftex.def Info: assets/fake_kaggle_data.png  used on input line 143.
+(pdftex.def)             Requested size: 138.39601pt x 201.3092pt.
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 143.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 143.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[7
+
+ <./assets/fake_kaggle_data.png>]
+<assets/real_co2_data.png, id=74, 1000.73875pt x 575.14874pt>
+File: assets/real_co2_data.png Graphic file (type png)
+<use assets/real_co2_data.png>
+Package pdftex.def Info: assets/real_co2_data.png  used on input line 153.
+(pdftex.def)             Requested size: 291.35739pt x 167.44707pt.
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 153.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 153.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[8
+
+ <./assets/real_co2_data.png>]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
 Package pdftex.def Info: assets/byu_logo.jpg  used on input line 157.
@@ -1118,56 +1118,116 @@ Package pdftex.def Info: assets/background.jpg  used on input line 157.
 [9
 
 ]
+File: assets/volcano_co2.png Graphic file (type png)
+<use assets/volcano_co2.png>
+Package pdftex.def Info: assets/volcano_co2.png  used on input line 169.
+(pdftex.def)             Requested size: 254.93564pt x 197.3702pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 161.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 169.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 161.
+Package pdftex.def Info: assets/background.jpg  used on input line 169.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [10
 
 ]
+File: assets/volcano_co2.png Graphic file (type png)
+<use assets/volcano_co2.png>
+Package pdftex.def Info: assets/volcano_co2.png  used on input line 169.
+(pdftex.def)             Requested size: 254.93564pt x 197.3702pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 165.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 169.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 165.
+Package pdftex.def Info: assets/background.jpg  used on input line 169.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [11
 
 ]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 180.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 173.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 180.
+Package pdftex.def Info: assets/background.jpg  used on input line 173.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [12
 
 ]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 186.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 177.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 186.
+Package pdftex.def Info: assets/background.jpg  used on input line 177.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [13
+
+]
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 181.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 181.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[14
+
+]
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 185.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 185.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[15
+
+]
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 200.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 200.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[16
+
+]
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 206.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 206.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[17
 
 ]
 \tf@nav=\write6
@@ -1188,18 +1248,18 @@ Package rerunfilecheck Info: File `demo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28891 strings out of 473190
- 594706 string characters out of 5715801
+ 28905 strings out of 473190
+ 594830 string characters out of 5715801
  971905 words of memory out of 5000000
- 51503 multiletter control sequences out of 15000+600000
+ 51509 multiletter control sequences out of 15000+600000
  632328 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,123p,494b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on demo.pdf (13 pages, 2879048 bytes).
+Output written on demo.pdf (17 pages, 2885823 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

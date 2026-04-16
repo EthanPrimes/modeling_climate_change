@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1776380967.06197 "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" "demo.pdf" "demo" 1776380968.17102 0
-  "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" 1776380966.87053 6909 0460939663bd51a426fa0bce09611cd9 ""
+["pdflatex"] 1776381447.27246 "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" "demo.pdf" "demo" 1776381448.44016 0
+  "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" 1776381445.9195 8068 06c6c8f680105f73cf2a3883d28b1792 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc" 1576101225 3075 0696ceafc85b8352a913efb9ba64bc17 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1--base.tfm" 1576101225 1840 1834297dad21c65d0f959ffe1bfe4fbd ""
@@ -244,10 +244,10 @@
   "assets/hot_meme.png" 1774894583.64395 1914457 0ea2921cd6904a93f3dc4d39a8aef911 ""
   "assets/real_co2_data.png" 1776350039.70737 218498 9c4abf10b2f3ad137915b4add3e71bdb ""
   "assets/volcano_co2.png" 1776349541.25346 149116 3ccf3341295b520e45091828b983f5ea ""
-  "demo.aux" 1776380968.11753 1902 af40c58045862ac9fe64ebad10e940b1 "pdflatex"
-  "demo.nav" 1776380968.11805 1210 49a5c3a2444197e9355a45286d88988e "pdflatex"
-  "demo.out" 1776380967.54905 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "demo.tex" 1776380966.87053 6909 0460939663bd51a426fa0bce09611cd9 ""
+  "demo.aux" 1776381448.38496 2289 2fdebf64573a6f2151158a6b8b1e83de "pdflatex"
+  "demo.nav" 1776381448.3856 1489 cbc324eee8752f8bec4ed0f3e40bf5af "pdflatex"
+  "demo.out" 1776381447.74231 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "demo.tex" 1776381445.9195 8068 06c6c8f680105f73cf2a3883d28b1792 ""
   "styles/beamercolorthemeflux.sty" 1774915244 4271 7b40071e1adcbe16ccbd06eddb4f0e20 ""
   "styles/beamerfontthemeflux.sty" 1774915244 2053 866b9b2d9ecc25380ef28e231cae19e1 ""
   "styles/beamerinnerthemeflux.sty" 1774915244 7167 e86cc3dc67e11f9790f62d7f1c8935d9 ""
