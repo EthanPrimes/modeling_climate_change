@@ -63,7 +63,7 @@ def get_year_noNaNs(year: int):
     return year - 1850
 
 gt_data_land_temps = gt_data_filtered[0, :, 3:][:, 97:]
-print("Land temp data shape:", gt_data_land_temps.shape)
+print("Land Temperature data shape:", gt_data_land_temps.shape)
 
 # # eg: gt_data_land_temps[:, get_year_land(1800)] # returns the land average temperatures for every month in the year 1800
 
@@ -217,13 +217,14 @@ CS = plt.contour(
 
 # CB = plt.colorbar(CS, shrink=0.8, extend="both")
 
-plt.title("GMM Component Probability Likelihood")
+plt.title("GMM Component Probability Likelihood", fontsize=22)
 plt.axis("tight")
 plt.ylim((46, 58))
-plt.ylabel("Average Yearly Land Temp ($\degree$F)")
-plt.xlabel("Year")
-plt.xlim((1900, 2030))
-plt.legend()
+plt.ylabel("Degrees (F)", fontsize=20)
+plt.xlabel("Year", fontsize=20)
+plt.tick_params(axis='both', labelsize=16)
+plt.legend(fontsize=16)
+plt.tight_layout()
 plt.savefig("tex_dir/figures/gmm1.png")
 
 plt.clf()
@@ -235,13 +236,15 @@ plt.scatter(xt, yt, label="Data")
 plt.contour(
     X[X > 1930].reshape(50, -1), Y[X > 1930].reshape(50, -1), (Z2[:, :, 0] - Z2[:, :, 1])[X > 1930].reshape(50, -1), levels=np.linspace(-.5, .5, 3), label="Component Membership Prob. Bounds"
 )
-plt.title("GMM Difference of Membership Probability Contours")
+plt.title("GMM Difference of Membership Probability Contours", fontsize=22)
 plt.axis("tight")
 plt.ylim((46, 58))
-plt.ylabel("Average Yearly Land Temp ($\degree$F)")
-plt.xlabel("Year")
+plt.ylabel("Degrees (F)", fontsize=20)
+plt.xlabel("Year", fontsize=20)
 plt.xlim((1900, 2030))
-plt.legend()
+plt.tick_params(axis='both', labelsize=16)
+plt.legend(fontsize=16)
+plt.tight_layout()
 plt.savefig("tex_dir/figures/gmm2.png")
 
 plt.clf()
@@ -253,13 +256,15 @@ plt.scatter(xt, yt, label="Data")
 # plt.plot(x, line2.predict(x.reshape(-1, 1)))
 linx = np.linspace(1900, 2040, 1000)
 plt.plot(linx, np.where(line1.predict(linx.reshape(-1, 1)) > line2.predict(linx.reshape(-1, 1)), line1.predict(linx.reshape(-1, 1)), line2.predict(linx.reshape(-1, 1))), 'k', label="Fit Lines")
-plt.title("GMM-Fit Linear Regressions")
+plt.title("GMM-Fit Linear Regressions", fontsize=22)
 plt.axis("tight")
 plt.ylim((46, 58))
-plt.ylabel("Average Yearly Land Temp ($\degree$F)")
-plt.xlabel("Year")
+plt.ylabel("Degrees (F)", fontsize=20)
+plt.xlabel("Year", fontsize=20)
 plt.xlim((1900, 2030))
-plt.legend()
+plt.tick_params(axis='both', labelsize=16)
+plt.legend(fontsize=16)
+plt.tight_layout()
 plt.savefig("tex_dir/figures/gmm3.png")
 
 
