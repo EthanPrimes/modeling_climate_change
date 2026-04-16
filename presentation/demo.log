@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 MAR 2026 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  16 APR 2026 08:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -748,30 +748,30 @@ File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 48.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.49925pt
-(hyperref)                removed on input line 48.
+(hyperref)                removed on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 48.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.49925pt
-(hyperref)                removed on input line 48.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 48.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.49925pt
-(hyperref)                removed on input line 48.
+(hyperref)                removed on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.49925pt
+(hyperref)                removed on input line 47.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
@@ -780,24 +780,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./demo.aux)
 \openout1 = `demo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -852,53 +852,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 47.
  (./demo.out) (./demo.out)
 \@outlinefile=\write5
 \openout5 = `demo.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 48.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 48.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 47.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 48.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 48.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/Roboto-LF/b/n on input line 48.
+(Font)                  OT1/cmr/bx/n --> T1/Roboto-LF/b/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/Roboto-LF/b/n on input line 48.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 48.
+(Font)                  OT1/cmr/bx/n --> T1/Roboto-LF/b/n on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/Roboto-LF/m/n on input line 48.
+(Font)                  OT1/cmss/m/n --> T1/Roboto-LF/m/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/Roboto-LF/m/n on input line 48.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 48.
+(Font)                  OT1/cmss/bx/n --> T1/Roboto-LF/m/n on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/Roboto-LF/m/it on input line 48.
+(Font)                  OT1/cmr/m/it --> T1/Roboto-LF/m/it on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/Roboto-LF/m/it on input line 48.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 48.
+(Font)                  OT1/cmr/bx/it --> T1/Roboto-LF/m/it on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 48.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 48.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/Roboto-LF/m/n --> T1/Roboto-LF/b/n on input line 48.
+(Font)                  T1/Roboto-LF/m/n --> T1/Roboto-LF/b/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/Roboto-LF/m/it --> T1/Roboto-LF/b/it on input line 48.
+(Font)                  T1/Roboto-LF/m/it --> T1/Roboto-LF/b/it on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 48.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/Roboto-LF/b/n --> T1/Roboto-LF/b/n on input line 48.
+(Font)                  T1/Roboto-LF/b/n --> T1/Roboto-LF/b/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/Roboto-LF/m/n --> T1/Roboto-LF/b/n on input line 48.
+(Font)                  T1/Roboto-LF/m/n --> T1/Roboto-LF/b/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/Roboto-LF/m/it --> T1/Roboto-LF/b/it on input line 48.
+(Font)                  T1/Roboto-LF/m/it --> T1/Roboto-LF/b/it on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 48.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 47.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -916,39 +916,39 @@ Dictionary: translator-theorem-dictionary, Language: English
 \c@mv@boldtabular=\count369
  (./demo.nav)
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 48.
+(Font)              `T1/Roboto-LF/regular/n' on input line 47.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 48.
+(Font)              scaled to size 5.0pt on input line 47.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 48.
+(Font)              `T1/Roboto-LF/regular/n' on input line 47.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 48.
+(Font)              scaled to size 6.0pt on input line 47.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 51.
+(Font)              `T1/Roboto-LF/regular/n' on input line 50.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 51.
+(Font)              scaled to size 17.28pt on input line 50.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 51.
+(Font)              `T1/Roboto-LF/bold/n' on input line 50.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 51.
+(Font)              scaled to size 17.28pt on input line 50.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 51.
+(Font)              `T1/Roboto-LF/regular/n' on input line 50.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 51.
+(Font)              scaled to size 10.95pt on input line 50.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 51.
+(Font)              `T1/Roboto-LF/bold/n' on input line 50.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 51.
+(Font)              scaled to size 10.95pt on input line 50.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 51.
+(Font)              `T1/Roboto-LF/regular/n' on input line 50.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 51.
+(Font)              scaled to size 10.0pt on input line 50.
 
 
 <assets/background.jpg, id=13, 628.3475pt x 418.56375pt>
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 51.
+Package pdftex.def Info: assets/background.jpg  used on input line 50.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [1
 
@@ -956,127 +956,214 @@ Package pdftex.def Info: assets/background.jpg  used on input line 51.
 <assets/hot_meme.png, id=22, 637.38126pt x 519.9425pt>
 File: assets/hot_meme.png Graphic file (type png)
 <use assets/hot_meme.png>
-Package pdftex.def Info: assets/hot_meme.png  used on input line 146.
+Package pdftex.def Info: assets/hot_meme.png  used on input line 117.
 (pdftex.def)             Requested size: 191.21585pt x 155.98395pt.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 146.
+(Font)              `T1/Roboto-LF/bold/n' on input line 117.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 146.
+(Font)              scaled to size 9.0pt on input line 117.
 <assets/byu_logo.jpg, id=24, 722.7pt x 289.08pt>
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 146.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 117.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 146.
+Package pdftex.def Info: assets/background.jpg  used on input line 117.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 146.
+(Font)              `T1/Roboto-LF/regular/n' on input line 117.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 4.0pt on input line 146.
+(Font)              scaled to size 4.0pt on input line 117.
 [2
 
  <./assets/byu_logo.jpg> <./assets/hot_meme.png>]
 File: assets/hot_meme.png Graphic file (type png)
 <use assets/hot_meme.png>
-Package pdftex.def Info: assets/hot_meme.png  used on input line 146.
+Package pdftex.def Info: assets/hot_meme.png  used on input line 117.
 (pdftex.def)             Requested size: 191.21585pt x 155.98395pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 146.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 117.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 146.
+Package pdftex.def Info: assets/background.jpg  used on input line 117.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [3
 
 ]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 150.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 121.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 150.
+Package pdftex.def Info: assets/background.jpg  used on input line 121.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [4
 
 ]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 131.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 131.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
+(Font)              `T1/Roboto-LF/regular/it' on input line 131.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 9.0pt on input line 131.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
+(Font)              `T1/Roboto-LF/regular/it' on input line 131.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 131.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
+(Font)              `T1/Roboto-LF/regular/it' on input line 131.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 5.0pt on input line 131.
+<assets/fake_kaggle_data.png, id=47, 397.485pt x 578.16pt>
+File: assets/fake_kaggle_data.png Graphic file (type png)
+<use assets/fake_kaggle_data.png>
+Package pdftex.def Info: assets/fake_kaggle_data.png  used on input line 131.
+(pdftex.def)             Requested size: 138.39601pt x 201.3092pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 154.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 131.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 154.
+Package pdftex.def Info: assets/background.jpg  used on input line 131.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [5
 
-]
+ <./assets/fake_kaggle_data.png>]
+<assets/real_co2_data.png, id=57, 1000.73875pt x 575.14874pt>
+File: assets/real_co2_data.png Graphic file (type png)
+<use assets/real_co2_data.png>
+Package pdftex.def Info: assets/real_co2_data.png  used on input line 141.
+(pdftex.def)             Requested size: 291.35739pt x 167.44707pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 158.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 141.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 158.
+Package pdftex.def Info: assets/background.jpg  used on input line 141.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [6
 
-]
+ <./assets/real_co2_data.png>]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 162.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 145.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 162.
+Package pdftex.def Info: assets/background.jpg  used on input line 145.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [7
 
 ]
+<assets/volcano_co2.png, id=74, 591.20876pt x 457.71pt>
+File: assets/volcano_co2.png Graphic file (type png)
+<use assets/volcano_co2.png>
+Package pdftex.def Info: assets/volcano_co2.png  used on input line 157.
+(pdftex.def)             Requested size: 254.93564pt x 197.3702pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 166.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 157.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 166.
+Package pdftex.def Info: assets/background.jpg  used on input line 157.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [8
 
-]
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 172.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 172.
+ <./assets/volcano_co2.png>]
+File: assets/volcano_co2.png Graphic file (type png)
+<use assets/volcano_co2.png>
+Package pdftex.def Info: assets/volcano_co2.png  used on input line 157.
+(pdftex.def)             Requested size: 254.93564pt x 197.3702pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 172.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 157.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 172.
+Package pdftex.def Info: assets/background.jpg  used on input line 157.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [9
+
+]
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 161.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 161.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[10
+
+]
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 165.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 165.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[11
+
+]
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 180.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 180.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[12
+
+]
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 186.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 186.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[13
 
 ]
 \tf@nav=\write6
@@ -1097,18 +1184,18 @@ Package rerunfilecheck Info: File `demo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28773 strings out of 473190
- 592148 string characters out of 5715801
- 969641 words of memory out of 5000000
- 51413 multiletter control sequences out of 15000+600000
- 614287 words of font info for 56 fonts, out of 8000000 for 9000
+ 28890 strings out of 473190
+ 594690 string characters out of 5715801
+ 971607 words of memory out of 5000000
+ 51501 multiletter control sequences out of 15000+600000
+ 628022 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,123p,494b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb>
-Output written on demo.pdf (9 pages, 2483021 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on demo.pdf (13 pages, 2877848 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 27 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

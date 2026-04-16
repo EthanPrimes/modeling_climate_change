@@ -33,16 +33,15 @@
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Commands
-\newcommand{\SL}{\text{SL}_2(\mathbb{Z})}
-\newcommand{\legendre}[2]{\genfrac{(}{)}{}{}{#1}{#2}}
+
 \setbeamerfont{block body}{size=\normalsize}
-% Informations
+
+% Information
 \title{\;\;\; Modeling Climate Change Over Time}
-% \subtitle{Parallelizing Class Number Computations}
-% Abstract:
+
 \author{Japheth Carlson, Andy Criddle,}
 \institute{Nathan Longhurst, Ethan Palenske}
-\titlegraphic{assets/byu_logo.jpg} %change this to your preferred logo or image (the image is located on the top right corner).
+\titlegraphic{assets/byu_logo.jpg}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 \begin{document}
@@ -50,34 +49,6 @@
 % Generate title page
 \titlepage
 
-% \begin{frame}{Example Slide}
-%     \begin{columns}[T]
-%         \begin{column}{0.6\textwidth}
-%             \begin{block}{Maass Cusp Forms}
-%                 Special, highly-symmetric functions
-%                 $f: \mathcal{H} \to \mathbb{C}$ of integer \textcolor{blue}{level} $\textcolor{blue}{N}$ such that:
-%                 \begin{enumerate}
-%                     \item $f$ is an eigenfunction of the hyperbolic Laplacian
-%                     \begin{itemize}
-%                         \item $\Delta := y^2 \left (\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} \right)$
-%                         \item $(\Delta + \lambda)f = 0$ for some number $\lambda$
-%                     \end{itemize}
-%                     \item $f\left (\frac{az + b}{cz + d} \right) = f(z)$ for all $a,b,c,d \in \mathbb{Z}$ s.t.
-%                     \begin{itemize}
-%                         \item $ad - bc = 1$
-%                         \item $\textcolor{blue}{N} | c$
-%                     \end{itemize}
-%                     \item $\lim\limits_{y \to \infty} |f(iy)| < \infty$
-%                 \end{enumerate}
-%             \end{block}
-%         \end{column}
-
-%         \begin{column}{0.4\textwidth}
-%             \centering
-%             \includegraphics[scale=0.28]{maass_form.jpg}
-%         \end{column}
-%     \end{columns}
-% \end{frame}
 
 
 % \begin{frame}{Example Slide}
@@ -149,8 +120,40 @@
     \par Does the presentation address the sources, reliability, and suitability of their data for the problems they are addressing?
 \end{frame}
 
+\begin{frame}{Data - A Falsified Dataset}
+    \begin{itemize}
+        \item One Kaggle dataset claimed to use data from a reputable source
+    \end{itemize}
+
+    \makebox[\linewidth] {
+        \includegraphics[width=0.38\paperwidth]{assets/fake_kaggle_data.png}
+    }
+\end{frame}
+
+\begin{frame}{Data - A Falsified Dataset}
+    \begin{itemize}
+        \item A graph from the actual source:
+    \end{itemize}
+
+    \makebox[\linewidth] {
+        \includegraphics[width=0.8\paperwidth]{assets/real_co2_data.png}
+    }
+\end{frame}
+
 \begin{frame}{Methods}
     \par Do they clearly describe their methods and models and justify the choices they made? Does the presentation demonstrate a clear understanding of the principles involved and of the strengths and weaknesses of the models and methods used?
+\end{frame}
+
+\begin{frame}{Results and Analysis - Volcanoes}
+    \begin{itemize}
+        \item Is global climate change due primarily to volcanoes?
+    \end{itemize}
+
+    \pause
+
+    \makebox[\linewidth] {
+        \includegraphics[width=0.7\paperwidth]{assets/volcano_co2.png}
+    }
 \end{frame}
 
 \begin{frame}{Results and Analysis}
@@ -162,12 +165,23 @@
 \end{frame}
 
 \begin{frame}{Ethics}
-    \par Do they appropriately and adequately address any possible ethical implications of their project?
+    % Do they appropriately and adequately address any possible ethical implications of their project?
+
+    \begin{itemize}
+        \item Collecting data: \textbf{ethical}
+        \item Ignorance of what the data indicates: \textbf{not ethical}
+        \item Our results do not assign culpability to any individual person, industry or nation
+        \item Everyone should hold themselves accountable
+        \item Kaggle dataset; propoganda about global climate change is real
+    \end{itemize}
+
+    \par In analyzing our results, we do not hope to single any individual or group out for their actions.
+    Rather, we encourage all people everywhere to develop a greater awareness of the long-term climate trends and what we each may do individually to improve our shared environment.
 \end{frame}
 
 \begin{frame}{Thank you}
     \begin{center}
-        \huge Thank you for your attention
+        \Huge Thank you for your attention
     \end{center}
 \end{frame}
 
