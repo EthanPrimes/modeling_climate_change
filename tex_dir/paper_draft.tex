@@ -194,46 +194,77 @@ We note the behavior in Figure~\ref{fig:gmm1}. From this figure, there is distin
 \par Leveraging the Kalman filter, we may apply a simple local linear model to predict future temperature trends.
 Pictured in Figure~\ref{fig:Kalman_Forecast_LLM}, we train on temperature data from 1900 -- 1999 to forecast temperature from 2000 -- 2017 and compare against later temperature observations.
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.475\textwidth]{figures/Kalman_Forecast_LLM.png}
-    \caption{Kalman filter forecast for average temperature in years 2000 -- 2017 compared against actual observed temepratures.}
-    \label{fig:Kalman_Forecast_LLM}
-\end{figure}
+% \begin{figure}[htbp]
+%     \centering
+%     \includegraphics[width=0.475\textwidth]{figures/Kalman_Forecast_LLM.png}
+%     \caption{Kalman filter forecast for average temperature in years 2000 -- 2017 compared against actual observed temepratures.}
+%     \label{fig:Kalman_Forecast_LLM}
+% \end{figure}
 
 \par What if we want to estimate the impact of conservation efforts?
 Once again, we may run the Kalman filter (via an ARIMA model, see Subsection \ref{Res:ARIMA}) to predict the corresponding change in average temperature by annual reductions in human CO$_2$ emissions.
 Figure~\ref{fig:Kalman_Exog} illustrates the change in average temperature corresponding to a 3\% annual reduction in human CO$_2$ emissions over the span of 50 years.
 
+% \begin{figure}[htbp]
+%     \centering
+%     \includegraphics[width=0.475\textwidth]{figures/Kalman_Exog.png}
+%     \caption{Predicted impact of reducing human CO$_2$ emissions by 3\% annually.  After approximately 50 years, we find average temperatures approximately return to their normal in the year 1900.}
+%     \label{fig:Kalman_Exog}
+% \end{figure}
+
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.475\textwidth]{figures/Kalman_Exog.png}
-    \caption{Predicted impact of reducing human CO$_2$ emissions by 3\% annually.  After approximately 50 years, we find average temperatures approximately return to their normal in the year 1900.}
-    \label{fig:Kalman_Exog}
+
+    \begin{subfigure}[t]{0.475\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/Kalman_Forecast_LLM.png}
+        \caption{Kalman filter forecast for average temperature in years 2000--2017 compared against actual observed temperatures.}
+        \label{fig:Kalman_Forecast_LLM}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.475\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/Kalman_Exog.png}
+        \caption{Predicted impact of reducing human CO$_2$ emissions by 3\% annually. After approximately 50 years, average temperatures return roughly to their 1900 level.}
+        \label{fig:Kalman_Exog}
+    \end{subfigure}
+
+    \caption{Kalman-based forecasting results. Left: forecasted temperatures for 2000--2017 compared with observed values. Right: projected temperature response under a 3\% annual reduction in human CO$_2$ emissions.}
+    \label{fig:Kalman_side_by_side}
 \end{figure}
+
 
 % Nathan
 \subsection{Seasonal Time Series}
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.475\textwidth]{figures/season.png}
-    \caption{Seasonal Average Temperatures Computed With Detrended Data}
-    \label{fig:season}
-\end{figure}
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.475\textwidth]{figures/trend.png}
-    \caption{Moving Average Temperatures (Trend)}
-    \label{fig:trend}
-\end{figure}
+    \begin{subfigure}[t]{0.475\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/season.png}
+        \caption{Seasonal average temperatures computed with detrended data.}
+        \label{fig:season}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.475\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/trend.png}
+        \caption{Moving average temperatures (trend).}
+        \label{fig:trend}
+    \end{subfigure}
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.475\textwidth]{figures/remainder.png}
-    \caption{Remainder Temperatures (Data - Trend - Seasonal)}
-    \label{fig:remainder}
+    \vspace{0.5em}
+
+    \begin{subfigure}[t]{0.475\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/remainder.png}
+        \caption{Remainder temperatures (data minus trend minus seasonal).}
+        \label{fig:remainder}
+    \end{subfigure}
+
+    \caption{Decomposition of the temperature series into seasonal, trend, and remainder components.}
+    \label{fig:decomposition}
 \end{figure}
 
 We may observe that using our trend and seasonal components in Figures \ref{fig:season} and \ref{fig:trend}, we can compute a remainder (shown in Figure~\ref{fig:remainder}) that has mean approximately zero as the time series continues through 2024.
