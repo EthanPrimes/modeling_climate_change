@@ -125,10 +125,12 @@ The Kalman filter provides the statistically optimal estimate and is especially 
 
 % Nathan
 \subsection{Seasonal Time Series}
-One tool we utilized in order to analyze the overall trend for temperature increase involved modeling with time series seasonal analysis. 
-We perform this analysis using the world average temperatures over the last 200+ years as cited above.
+\label{met:seasonal}
+Another valuable tool for analyzing the overall temperature trend is a time series decomposition.
+This process involves decomposing a single observation series into three components:  (1) a moving average of the data, (2) a seasonal variation (i.e., known temperature changes over the course of a calendar year) and (3) a remainder.
+To observe global long-term trends that extend across decades and centuries, we examine the world average temperatures over the last 200+ years \cite{berkeleyearth_temperature}.
 After computing a moving average, we compute the seasonal average with the detrended data.
-Finally, we can compute the remainder to verify the validity of this seasonal analysis.
+Finally, we compute the remainder to verify the accuracy of the seasonal trends identified.
 
 % Ethan
 \subsection{ARIMA Models}
@@ -142,7 +144,7 @@ Finally, we can compute the remainder to verify the validity of this seasonal an
 
 \par ARIMA models are powerful because their coefficients are easy to interpret, yielding correlation between past measurements and current ones. Similarly, we can use ARIMA models to predict future states, enabling us to cast present results into the future.
 
-\par These models, while powerful, can be further improved by decomposing time series into three pieces: the trend, the seasonal component, and the remainder. Determining seasonal components and incorporating these into ARIMA models enable them to have more predictive power, since seasonal components are not interfering with general trends and vice versa. These extended models are called SARIMA models, and can accomplish everything an ARIMA model can do and more.
+\par These models, while powerful, are further improved by decomposing time series, as detailed in Subsection \ref{met:seasonal}.  Determining seasonal components and incorporating these into ARIMA models enable them to have more predictive power, since seasonal components do not interfere with general trends, or vice versa. These models, called SARIMA models, extend the ARIMA model framework.
 
 
 %%Fourth Section
@@ -175,7 +177,7 @@ Finally, we can compute the remainder to verify the validity of this seasonal an
     \label{fig:gmm3}
 \end{figure}
 
-We note the behavior in Figure~\ref{fig:gmm1}. From this figure, there is distinct overlap between the components, but the component to the right appears to indicate a distinctly increased upwards trend. This behavior is indicative of a shift in the underlying system generating the involved data. Figure~\ref{fig:gmm2} indicates that additional data upwards and to the right is more likely to have been produced by a new, fundamentally distinct system, with Figure~\ref{fig:gmm3} indicating that the present trend indicates a $1\deg$F increase in US temperatures over each 20 years to come.
+Consider the behavior in Figure~\ref{fig:gmm1}. From this figure, there is considerable overlap between the components, but the component to the right appears to indicate a distinct upward trend. This behavior is indicative of a shift in the underlying system generating the involved data. Figure~\ref{fig:gmm2} indicates that additional data upwards and to the right is more likely to have been produced by a new, fundamentally distinct system, with Figure~\ref{fig:gmm3} indicating that the present trend indicates a $1\degree F$ increase in US temperatures over each future 20-year interval.
 
 % Japheth
 \subsection{Kalman Filter}
@@ -189,7 +191,7 @@ We note the behavior in Figure~\ref{fig:gmm1}. From this figure, there is distin
 \end{figure}
 
 \par Leveraging the Kalman filter, we may apply a simple local linear model to predict future temperature trends.
-Pictured in Figure~\ref{fig:Kalman_Forecast_LLM}, we train on temperature data from 1900 -- 1999 to forecast temperature from 2000 -- 2017 and compare against later temperature observations.
+Pictured in Figure~\ref{fig:Kalman_Forecast_LLM}, we train on US temperature data from 1900 -- 1999 to forecast temperature from 2000 -- 2017 and compare against later temperature observations.
 
 % \begin{figure}[htbp]
 %     \centering
@@ -198,7 +200,7 @@ Pictured in Figure~\ref{fig:Kalman_Forecast_LLM}, we train on temperature data f
 %     \label{fig:Kalman_Forecast_LLM}
 % \end{figure}
 
-\par What if we want to estimate the impact of conservation efforts?
+\par However, what if we want to estimate the impact of conservation efforts?
 Once again, we may run the Kalman filter (via an ARIMA model, see Subsection \ref{Res:ARIMA}) to predict the corresponding change in average temperature by annual reductions in human CO$_2$ emissions.
 Figure~\ref{fig:Kalman_Exog} illustrates the change in average temperature corresponding to a 3\% annual reduction in human CO$_2$ emissions over the span of 50 years.
 
@@ -226,7 +228,7 @@ Figure~\ref{fig:Kalman_Exog} illustrates the change in average temperature corre
         \label{fig:Kalman_Exog}
     \end{subfigure}
 
-    \caption{Kalman-based forecasting results. Left: forecasted temperatures for 2000--2017 compared with observed values. Right: projected temperature response under a 3\% annual reduction in human CO$_2$ emissions.}
+    \caption{Kalman-based forecasting results. Left: forecast temperatures for 2000--2017 compared with observed values. Right: projected temperature response under a 3\% annual reduction in human CO$_2$ emissions.}
     \label{fig:Kalman_side_by_side}
 \end{figure}
 
@@ -264,27 +266,28 @@ Figure~\ref{fig:Kalman_Exog} illustrates the change in average temperature corre
     \label{fig:decomposition}
 \end{figure}
 
-We may observe that using our trend and seasonal components in Figures \ref{fig:season} and \ref{fig:trend}, we can compute a remainder (shown in Figure~\ref{fig:remainder}) that approximately has mean zero as the time series continues through 2024.
-The inconsistency in the remainder in previous years could be due to the fact that less locations were recording temperature data for a given year.
-With the increase in consistency and accurate data, it is clear that the temperature trend is increasing, as shown in the plots.
+We may observe that using our trend and seasonal components in Figures \ref{fig:season} and \ref{fig:trend}, we can compute a remainder (shown in Figure~\ref{fig:remainder}) that has a mean of approximately zero as the time series continues through 2024.
+The inconsistency in the remainder in early years is likely due to the fact that fewer locations were recording temperature data for a given year and had less sensitive equipment than is presently available.
+With the increase in consistency and accurate data, it is clear that temperatures are in fact rising, as shown in Figure \ref{fig:decomposition}.
 
 % Ethan
 \subsection{ARIMA Model}
 \label{Res:ARIMA}
-\par ARIMA models can take a long time to train, and as such it is better to train them on aggregated or averaged data instead of daily data. Computing the optimal parameters $p, d,$ and $q$ using a grid search to match an ARIMA model to Kalman filter smoothed U.S. average yearly temperature resulted in the green line Figure~\ref{fig:sarimax_avg_temp}. We also trained the model on only the first 80\% of the shown time series data, and still our predictions matched the smoothed data very closely.
+\par ARIMA models can take a long time to train, and as such it is better to train them on aggregated or averaged data, instead of daily data. Computing the optimal parameters $p, d,$ and $q$ using a grid search to match an ARIMA model to Kalman filter smoothed U.S. average yearly temperature resulted in the green line found in Figure~\ref{fig:sarimax_avg_temp}. We also trained the model on only the first 80\% of the shown time series data, and still our predictions matched the smoothed data very closely.
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.65\textwidth]{figures/us_temp_sarimax_arima.png}
-    \caption{An ARIMA(2, 1, 2) and SARIMAX(2, 0, 2, 0, 1, 0, 3) models fit to averaged US land tempratures from 1900-2024. The parameters were optimally selected from a gridsearch. By incorporating long-term seasonal trends in the SARIMAX model, the future prediction of US average land temperatures actually worsen.}
+    \caption{An ARIMA(2, 1, 2) and SARIMAX(2, 0, 2, 0, 1, 0, 3) models fit to averaged US land tempratures from 1900-2024. The parameters were optimally selected from a gridsearch. By incorporating long-term seasonal trends, the future prediction of US average land temperatures actually worsen.}
     \label{fig:sarimax_avg_temp}
 \end{figure}
 
-\par Figure~\ref{fig:sarimax_avg_temp} clearly demonstrates the increasing temperatures in America over the past few decades, and also demonstrate a worrying possible future trend.
+\par Figure~\ref{fig:sarimax_avg_temp} clearly indicates that the temperatures in America have been increasing in recent decades, demonstrating a worrying trend.
 
-\par While the ARIMA model clearly demonstrates American temperature trends, an obvious question is whether or not natural, multi-year cycles are taking place that cause this triend to look more concerning than it otherwise might. While we cannot rule out decade-long trends that could result in future global cooling, training a SARIMAX model to determine and use seasonal trends in addition to the standard ARIMA techniques resulted in an even more foreboding prediction, in which temperatures are forecasted to be even higher than ARIMA predicted, as indicated by the red line in Figure~\ref{fig:sarimax_avg_temp}.
+\par An obvious question is whether or not natural multi-year cycles are taking place that cause this trend to appear more concerning than it may be in reality.  As we cannot rule out decade-long trends that may skew ARIMA model predictions, we trained a SARIMAX model to determine seasonal trends in addition to the standard ARIMA techniques, resulting in an even more foreboding prediction: as indicated by the red line in Figure~\ref{fig:sarimax_avg_temp}, temperatures are forecast to be even higher than ARIMA predicted.
 
 % \par SARIMAX models can find relationships between temperature, CO$_2$ levels, and seaice levels and incorporate seasonal trends into the regression. The figure 
+
 
 
 %%Fifth Section
