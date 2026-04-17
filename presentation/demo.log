@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 14:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1206,24 +1206,24 @@ Package pdftex.def Info: assets/background.jpg  used on input line 202.
 [14
 
 ]
+<assets/us_temp_sarimax_arima.png, id=133, 589.0005pt x 354.123pt>
+File: assets/us_temp_sarimax_arima.png Graphic file (type png)
+<use assets/us_temp_sarimax_arima.png>
+Package pdftex.def Info: assets/us_temp_sarimax_arima.png  used on input line 209.
+(pdftex.def)             Requested size: 254.93564pt x 153.27495pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 206.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 209.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 206.
+Package pdftex.def Info: assets/background.jpg  used on input line 209.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [15
 
-]
-<assets/us_temp_arima.png, id=140, 408.3255pt x 328.8285pt>
-File: assets/us_temp_arima.png Graphic file (type png)
-<use assets/us_temp_arima.png>
-Package pdftex.def Info: assets/us_temp_arima.png  used on input line 213.
-(pdftex.def)             Requested size: 254.93564pt x 205.30656pt.
+ <./assets/us_temp_sarimax_arima.png>]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
 Package pdftex.def Info: assets/byu_logo.jpg  used on input line 213.
@@ -1236,62 +1236,31 @@ Package pdftex.def Info: assets/background.jpg  used on input line 213.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [16
 
- <./assets/us_temp_arima.png>]
-<assets/us_temp_sarimax_arima.png, id=149, 589.0005pt x 354.123pt>
-File: assets/us_temp_sarimax_arima.png Graphic file (type png)
-<use assets/us_temp_sarimax_arima.png>
-Package pdftex.def Info: assets/us_temp_sarimax_arima.png  used on input line 220.
-(pdftex.def)             Requested size: 254.93564pt x 153.27495pt.
+]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 220.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 230.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 220.
+Package pdftex.def Info: assets/background.jpg  used on input line 230.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [17
 
- <./assets/us_temp_sarimax_arima.png>]
+]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 224.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 236.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 224.
+Package pdftex.def Info: assets/background.jpg  used on input line 236.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [18
-
-]
-File: assets/byu_logo.jpg Graphic file (type jpg)
-<use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 239.
-(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
-
-
-File: assets/background.jpg Graphic file (type jpg)
-<use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 239.
-(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
-[19
-
-]
-File: assets/byu_logo.jpg Graphic file (type jpg)
-<use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 245.
-(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
-
-
-File: assets/background.jpg Graphic file (type jpg)
-<use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 245.
-(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
-[20
 
 ]
 \tf@nav=\write6
@@ -1312,18 +1281,18 @@ Package rerunfilecheck Info: File `demo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28984 strings out of 473190
- 596714 string characters out of 5715801
+ 28969 strings out of 473190
+ 596428 string characters out of 5715801
  971905 words of memory out of 5000000
- 51579 multiletter control sequences out of 15000+600000
+ 51568 multiletter control sequences out of 15000+600000
  638632 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,123p,494b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on demo.pdf (20 pages, 3150403 bytes).
+Output written on demo.pdf (18 pages, 3094650 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

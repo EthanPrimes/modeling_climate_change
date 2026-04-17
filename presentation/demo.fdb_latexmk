@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1776455876.30394 "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" "demo.pdf" "demo" 1776455877.69427 0
-  "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" 1776455876.13003 8903 941157892a5cf705c68dcb4d69c1e5be ""
+["pdflatex"] 1776456304.39714 "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" "demo.pdf" "demo" 1776456305.74921 0
+  "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" 1776456304.20778 8668 5ca28a413481ce7219718a4bb56a0758 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc" 1576101225 3075 0696ceafc85b8352a913efb9ba64bc17 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1--base.tfm" 1576101225 1840 1834297dad21c65d0f959ffe1bfe4fbd ""
@@ -250,13 +250,12 @@
   "assets/gmm3.png" 1776455050.63956 34792 e5f653802e4b78f651b615e4a14fabf6 ""
   "assets/hot_meme.png" 1774894583.64395 1914457 0ea2921cd6904a93f3dc4d39a8aef911 ""
   "assets/real_co2_data.png" 1776350039.70737 218498 9c4abf10b2f3ad137915b4add3e71bdb ""
-  "assets/us_temp_arima.png" 1776455583.89099 52210 92ba319e10355c0f209ad4ee161ee2ac ""
   "assets/us_temp_sarimax_arima.png" 1776455507.91581 75347 1bd3a69dd2cd02fb7cf120e84cf306fd ""
   "assets/volcano_co2.png" 1776349541.25346 149116 3ccf3341295b520e45091828b983f5ea ""
-  "demo.aux" 1776455877.63636 2676 79947fa04f09611ce1549e27e47e6b64 "pdflatex"
-  "demo.nav" 1776455877.63691 1768 50c5e887b9ef014f93a4b4120a6ef5a8 "pdflatex"
-  "demo.out" 1776455876.81774 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "demo.tex" 1776455876.13003 8903 941157892a5cf705c68dcb4d69c1e5be ""
+  "demo.aux" 1776456305.69206 2418 16f27ecfedd3c5b52e471dc97424580c "pdflatex"
+  "demo.nav" 1776456305.69272 1582 12e952fa21477edf76338852743dfc09 "pdflatex"
+  "demo.out" 1776456304.89603 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "demo.tex" 1776456304.20778 8668 5ca28a413481ce7219718a4bb56a0758 ""
   "styles/beamercolorthemeflux.sty" 1774915244 4271 7b40071e1adcbe16ccbd06eddb4f0e20 ""
   "styles/beamerfontthemeflux.sty" 1774915244 2053 866b9b2d9ecc25380ef28e231cae19e1 ""
   "styles/beamerinnerthemeflux.sty" 1774915244 7167 e86cc3dc67e11f9790f62d7f1c8935d9 ""
