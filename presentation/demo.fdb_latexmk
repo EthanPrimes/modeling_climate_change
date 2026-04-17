@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1776456304.39714 "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" "demo.pdf" "demo" 1776456305.74921 0
-  "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" 1776456304.20778 8668 5ca28a413481ce7219718a4bb56a0758 ""
+["pdflatex"] 1776457155.53733 "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" "demo.pdf" "demo" 1776457156.99231 0
+  "/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex" 1776457155.34218 8655 66c81e466089a69ca439a11e8312387e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc" 1576101225 3075 0696ceafc85b8352a913efb9ba64bc17 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/google/roboto/Roboto-Bold-lf-t1--base.tfm" 1576101225 1840 1834297dad21c65d0f959ffe1bfe4fbd ""
@@ -242,6 +242,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1757904402 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
+  "assets/Kalman_Exog.png" 1776457073.33024 79083 032fe87778d73c6ae6a821269bd534e6 ""
+  "assets/Kalman_Forecast_LLM.png" 1776457073.33125 85450 93397921fa679d54e164128779e813d5 ""
   "assets/background.jpg" 1774915244 15027 d3d86b2680eb0500bebb3f330cb84bb5 ""
   "assets/byu_logo.jpg" 1774915244 165927 29e7ee915e805c0c905d1f7e96019be2 ""
   "assets/fake_kaggle_data.png" 1776350049.70963 163242 b4fe344aff771d3debbc0991eac01184 ""
@@ -252,10 +254,10 @@
   "assets/real_co2_data.png" 1776350039.70737 218498 9c4abf10b2f3ad137915b4add3e71bdb ""
   "assets/us_temp_sarimax_arima.png" 1776455507.91581 75347 1bd3a69dd2cd02fb7cf120e84cf306fd ""
   "assets/volcano_co2.png" 1776349541.25346 149116 3ccf3341295b520e45091828b983f5ea ""
-  "demo.aux" 1776456305.69206 2418 16f27ecfedd3c5b52e471dc97424580c "pdflatex"
-  "demo.nav" 1776456305.69272 1582 12e952fa21477edf76338852743dfc09 "pdflatex"
-  "demo.out" 1776456304.89603 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "demo.tex" 1776456304.20778 8668 5ca28a413481ce7219718a4bb56a0758 ""
+  "demo.aux" 1776457156.9331 2418 16f27ecfedd3c5b52e471dc97424580c "pdflatex"
+  "demo.nav" 1776457156.93376 1582 12e952fa21477edf76338852743dfc09 "pdflatex"
+  "demo.out" 1776457156.07452 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "demo.tex" 1776457155.34218 8655 66c81e466089a69ca439a11e8312387e ""
   "styles/beamercolorthemeflux.sty" 1774915244 4271 7b40071e1adcbe16ccbd06eddb4f0e20 ""
   "styles/beamerfontthemeflux.sty" 1774915244 2053 866b9b2d9ecc25380ef28e231cae19e1 ""
   "styles/beamerinnerthemeflux.sty" 1774915244 7167 e86cc3dc67e11f9790f62d7f1c8935d9 ""

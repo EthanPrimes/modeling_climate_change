@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 14:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1224,41 +1224,51 @@ Package pdftex.def Info: assets/background.jpg  used on input line 209.
 [15
 
  <./assets/us_temp_sarimax_arima.png>]
+<assets/Kalman_Forecast_LLM.png, id=142, 498.663pt x 425.6703pt>
+File: assets/Kalman_Forecast_LLM.png Graphic file (type png)
+<use assets/Kalman_Forecast_LLM.png>
+Package pdftex.def Info: assets/Kalman_Forecast_LLM.png  used on input line 220.
+(pdftex.def)             Requested size: 163.8868pt x 139.89355pt.
+<assets/Kalman_Exog.png, id=143, 523.9575pt x 425.6703pt>
+File: assets/Kalman_Exog.png Graphic file (type png)
+<use assets/Kalman_Exog.png>
+Package pdftex.def Info: assets/Kalman_Exog.png  used on input line 220.
+(pdftex.def)             Requested size: 163.8868pt x 133.13855pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 213.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 220.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 213.
+Package pdftex.def Info: assets/background.jpg  used on input line 220.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [16
 
-]
+ <./assets/Kalman_Forecast_LLM.png> <./assets/Kalman_Exog.png>]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 230.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 238.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 230.
+Package pdftex.def Info: assets/background.jpg  used on input line 238.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [17
 
 ]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 236.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 244.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 236.
+Package pdftex.def Info: assets/background.jpg  used on input line 244.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [18
 
@@ -1281,18 +1291,18 @@ Package rerunfilecheck Info: File `demo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28969 strings out of 473190
- 596428 string characters out of 5715801
+ 28983 strings out of 473190
+ 596888 string characters out of 5715801
  971905 words of memory out of 5000000
- 51568 multiletter control sequences out of 15000+600000
+ 51582 multiletter control sequences out of 15000+600000
  638632 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,123p,494b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on demo.pdf (18 pages, 3094650 bytes).
+Output written on demo.pdf (18 pages, 3230400 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
+ 199 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
  37 named destinations out of 1000 (max. 500000)
- 195 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
