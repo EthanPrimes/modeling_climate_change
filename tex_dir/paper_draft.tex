@@ -49,10 +49,9 @@ Aside from the four standard seasons associated with Earth's axial tilt, long-ra
 While understanding these cycles is still an open area of investigation, they typically act in predictable ways over long periods of time.  
 Within the last 200 years, however, Earth's climate has changed faster than in any time known since the mass extinction event of the dinosaurs \cite{mulkern2013climatechange}.
 
-With the climate changes on Earth trending toward another potential mass extinction event, the immediate question becomes:  What has caused such a rapid change in global climate?  
-This highlights the foundational importance of finding the correlation of Earth's surface/atmospheric temperature and other proposed correlating factors.  
+With the climate changes on Earth trending toward another potential mass extinction event, there is great interest in identifying which factors have caused such a rapid change in global climate.
 Recently, there has been increasing momentum in both scientific and societal circles suggesting that Earth's rapid shift in temperature is largely due to a rise in atmospheric CO$_2$ levels \cite{foote1856art, arrhenius1896xxxi, callendar1938artificial, keeling1960concentration, manabe1967thermal, charney1979carbon, santer1996search}.
-Moreover, concern has been raised about depleting sea ice levels, particularly in polar regions.
+% Moreover, concern has been raised about depleting sea ice levels, particularly in polar regions.
 % Previous models have forecasted drastic changes in 
 Abstracted from the various factors lies the core question: how scared should we be of the trends indicated by the changes we see in the climate?
 We therefore attempt analysis and predictive modeling of these factors together over time, beginning as far back as data permits, until the present, and use these models to predict future behavior.
@@ -71,7 +70,7 @@ Another dataset contained averaged yearly temperatures from various points in th
 
 To grasp the impacts of CO$_2$ and all greenhouse gas emissions on temperature, we use the emissions data provided by \cite{co2_ghg_kaggle} that contains most emissions caused by humans over the last 250+ years. The first iteration of this dataset that we used came from Kaggle, but after comparing the given values to their claimed source, we realized the Kaggle dataset had changed values that made United States pollution look worse and Chinese pollution look better than they truly are.
 
-To compare this to CO$_2$ emissions caused by volcanoes we use data collected by various experts in the area \cite{fischer2019emissions}. However, the amount of CO$_2$ released by volcanoes was so miniscule compared to the amount released by humans that we didn't feel it was useful to examine. In the time intervals of the dataset, volcanoes produced less than 1\% as much CO$_2$ as humans.
+To compare this production to the CO$_2$ emissions caused by volcanoes, we consulted data collected by various experts in the area \cite{fischer2019emissions}. However, the amount of CO$_2$ released by volcanoes, while considerable, was less than 1\% of the CO$_2$ that humans produced in the same time interval. As such, we did not consider volcano CO$_2$ production in our analysis.
 
 We are considering time series data, and wish to predict future data.
 In this context, train-test splits without randomization may be helpful for model infrastructure selection. 
