@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1776460772.92179 "/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/presentation/demo.tex" "demo.pdf" "demo" 1776460780.92399 0
+["pdflatex"] 1776461651.56651 "/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/presentation/demo.tex" "demo.pdf" "demo" 1776461666.19447 0
   "/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/presentation/demo.tex" 1776460764.67791 8743 5cd1bfadaf8315a7a0a285dcbb42b21d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc" 1576101225 3075 0696ceafc85b8352a913efb9ba64bc17 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -247,9 +247,9 @@
   "assets/background.jpg" 1774896007.04407 15027 d3d86b2680eb0500bebb3f330cb84bb5 ""
   "assets/byu_logo.jpg" 1774896007.0443 165927 29e7ee915e805c0c905d1f7e96019be2 ""
   "assets/fake_kaggle_data.png" 1776456683.78386 163242 b4fe344aff771d3debbc0991eac01184 ""
-  "assets/gmm1.png" 1776458094.85 416965 56aaca4e202eff16f0ab2901e023b6ec ""
-  "assets/gmm2.png" 1776458094.85076 242503 80ecea241b90c3bab4a27f144cf4d6f2 ""
-  "assets/gmm3.png" 1776458094.85196 187285 07a3d569ae4816e7ab6d6b75b0e5a36d ""
+  "assets/gmm1.png" 1776461651.0111 2260907 bd39ed56b32c54e565ac9d9d5512766c ""
+  "assets/gmm2.png" 1776461651.01763 1391504 b9f72b79c85f2447f90d465c78bac7af ""
+  "assets/gmm3.png" 1776461651.02163 1172320 79a1680dc4ea5742b94b7debda9f85b8 ""
   "assets/hot_meme.png" 1774896007.04522 1914457 0ea2921cd6904a93f3dc4d39a8aef911 ""
   "assets/real_co2_data.png" 1776458532.31097 200045 24b92352730c53ea3ab85f02f39798af ""
   "assets/remainder.png" 1776459568.47364 769657 701af7a840ac427f013cfd14d8caf77b ""
@@ -257,9 +257,9 @@
   "assets/trend.png" 1776459567.40794 1106056 5c03141ad1d73550e167e0efc859772d ""
   "assets/us_temp_sarimax_arima.png" 1776458664.09971 833365 044ab6299b1cb00bc968298a436fc3e6 ""
   "assets/volcano_co2.png" 1776459462.8224 494501 73c89d7df880d6b2d7fe890157278570 ""
-  "demo.aux" 1776460780.85008 2676 79947fa04f09611ce1549e27e47e6b64 "pdflatex"
-  "demo.nav" 1776460780.85079 1768 50c5e887b9ef014f93a4b4120a6ef5a8 "pdflatex"
-  "demo.out" 1776460773.45448 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "demo.aux" 1776461666.11847 2676 79947fa04f09611ce1549e27e47e6b64 "pdflatex"
+  "demo.nav" 1776461666.11919 1768 50c5e887b9ef014f93a4b4120a6ef5a8 "pdflatex"
+  "demo.out" 1776461652.08943 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "demo.tex" 1776460764.67791 8743 5cd1bfadaf8315a7a0a285dcbb42b21d ""
   "styles/beamercolorthemeflux.sty" 1774896007.0493 4271 7b40071e1adcbe16ccbd06eddb4f0e20 ""
   "styles/beamerfontthemeflux.sty" 1774896007.0494 2053 866b9b2d9ecc25380ef28e231cae19e1 ""
