@@ -107,20 +107,25 @@
 % \end{frame}
 
 \begin{frame}{Introduction}
-    \par Do the presenters begin with a well-motivated explanation of the background for the problem, why it is interesting, and what techniques/methods have been previously used (if any) for this problem or similar ones?
+    % \par Do the presenters begin with a well-motivated explanation of the background for the problem, why it is interesting, and what techniques/methods have been previously used (if any) for this problem or similar ones?
 
-    \par So, why should we care?
+    \begin{itemize}
+        \item So, why should we care?
+    \end{itemize}
 
     \pause
+    \makebox[\linewidth] {
+        \includegraphics[width=0.6\paperwidth]{assets/hot_meme.png}
+    }
 
-    \includegraphics[scale=0.3]{assets/hot_meme.png}
+    % With this being such a large issue, pretty much every technique imaginable has been used to examine climate change data
 \end{frame}
 
 \begin{frame}{Data}
     \par Does the presentation address the sources, reliability, and suitability of their data for the problems they are addressing?
 \end{frame}
 
-\begin{frame}{Results and Analysis - Volcanoes}
+\begin{frame}{Data - Volcanoes}
     \begin{itemize}
         \item Is global climate change due primarily to volcanoes?
     \end{itemize}
@@ -152,8 +157,22 @@
     }
 \end{frame}
 
-\begin{frame}{Methods - Ethan}
-    \par Do they clearly describe their methods and models and justify the choices they made? Does the presentation demonstrate a clear understanding of the principles involved and of the strengths and weaknesses of the models and methods used?
+\begin{frame}{Methods}
+    % \par Do they clearly describe their methods and models and justify the choices they made? Does the presentation demonstrate a clear understanding of the principles involved and of the strengths and weaknesses of the models and methods used?
+    \par We used many techniques:
+    \begin{itemize}
+        \item Mixture models
+        \begin{itemize}
+            \item Gaussian \& linear
+        \end{itemize}
+        \item Kalman filter
+        \item Seasonal time series decomposition
+        \item ARIMA
+        \begin{itemize}
+            \item ARIMA models may mix up trends and seasonal behavior
+            \item SARIMA incorporates seasonal decompositions
+        \end{itemize}
+   \end{itemize}
 \end{frame}
 
 \begin{frame}{GMM-Fit Regression}
@@ -186,8 +205,18 @@
     \par Do they clearly and succinctly describe the results and their interpretation and analysis of the results? Does the presentation demonstrate a thorough understanding of the potential challenges and weaknesses of the methods and models? Do they clearly summarize the conclusions and outstanding open questions? Are the results significant or meaningful?
 \end{frame}
 
-\begin{frame}{Results and Analysis - Ethan}
-    \par Do they clearly and succinctly describe the results and their interpretation and analysis of the results? Does the presentation demonstrate a thorough understanding of the potential challenges and weaknesses of the methods and models? Do they clearly summarize the conclusions and outstanding open questions? Are the results significant or meaningful?
+\begin{frame}{Results and Analysis - ARIMA}
+
+    \makebox[\linewidth] {
+        \includegraphics[width=0.7\paperwidth]{assets/us_temp_arima.png}
+    }
+\end{frame}
+
+\begin{frame}{Results and Analysis - SARIMA}
+
+    \makebox[\linewidth] {
+        \includegraphics[width=0.7\paperwidth]{assets/us_temp_sarimax_arima.png}
+    }
 \end{frame}
 
 \begin{frame}{Results and Analysis (cont.)}
