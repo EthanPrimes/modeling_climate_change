@@ -225,7 +225,7 @@ plt.xlabel("Year", fontsize=20)
 plt.tick_params(axis='both', labelsize=16)
 plt.legend(fontsize=16)
 plt.tight_layout()
-plt.savefig("tex_dir/figures/gmm1.png", dpi=16000)
+plt.savefig("tex_dir/figures/gmm1.png", dpi=1600)
 
 plt.clf()
 plt.scatter(xt, yt, label="Data")
@@ -245,7 +245,7 @@ plt.xlim((1900, 2030))
 plt.tick_params(axis='both', labelsize=16)
 plt.legend(fontsize=16)
 plt.tight_layout()
-plt.savefig("tex_dir/figures/gmm2.png", dpi=16000)
+plt.savefig("tex_dir/figures/gmm2.png", dpi=1600)
 
 plt.clf()
 labels = model.predict(x_full)
@@ -265,7 +265,7 @@ plt.xlim((1900, 2030))
 plt.tick_params(axis='both', labelsize=16)
 plt.legend(fontsize=16)
 plt.tight_layout()
-plt.savefig("tex_dir/figures/gmm3.png", dpi=16000)
+plt.savefig("tex_dir/figures/gmm3.png", dpi=1600)
 
 
 ###################################################################
