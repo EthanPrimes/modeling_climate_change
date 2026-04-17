@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 15:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex"
-(/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex
+**/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/presentation/demo.tex
+(/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/presentation/demo.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1034,11 +1034,11 @@ Package pdftex.def Info: assets/background.jpg  used on input line 126.
 [4
 
 ]
-<assets/volcano_co2.png, id=48, 591.20876pt x 457.71pt>
+<assets/volcano_co2.png, id=48, 462.528pt x 346.896pt>
 File: assets/volcano_co2.png Graphic file (type png)
 <use assets/volcano_co2.png>
 Package pdftex.def Info: assets/volcano_co2.png  used on input line 138.
-(pdftex.def)             Requested size: 254.93564pt x 197.3702pt.
+(pdftex.def)             Requested size: 254.93564pt x 191.20625pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
 Package pdftex.def Info: assets/byu_logo.jpg  used on input line 138.
@@ -1055,7 +1055,7 @@ Package pdftex.def Info: assets/background.jpg  used on input line 138.
 File: assets/volcano_co2.png Graphic file (type png)
 <use assets/volcano_co2.png>
 Package pdftex.def Info: assets/volcano_co2.png  used on input line 138.
-(pdftex.def)             Requested size: 254.93564pt x 197.3702pt.
+(pdftex.def)             Requested size: 254.93564pt x 191.20625pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
 Package pdftex.def Info: assets/byu_logo.jpg  used on input line 138.
@@ -1087,11 +1087,11 @@ Package pdftex.def Info: assets/background.jpg  used on input line 148.
 [7
 
  <./assets/fake_kaggle_data.png>]
-<assets/real_co2_data.png, id=74, 1000.73875pt x 575.14874pt>
+<assets/real_co2_data.png, id=74, 1000.73875pt x 550.55687pt>
 File: assets/real_co2_data.png Graphic file (type png)
 <use assets/real_co2_data.png>
 Package pdftex.def Info: assets/real_co2_data.png  used on input line 158.
-(pdftex.def)             Requested size: 291.35739pt x 167.44707pt.
+(pdftex.def)             Requested size: 291.35739pt x 160.28746pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
 Package pdftex.def Info: assets/byu_logo.jpg  used on input line 158.
@@ -1193,84 +1193,125 @@ Package pdftex.def Info: assets/background.jpg  used on input line 198.
 [13
 
  <./assets/gmm3.png>]
-File: assets/byu_logo.jpg Graphic file (type jpg)
-<use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 202.
-(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
-
-
-File: assets/background.jpg Graphic file (type jpg)
-<use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 202.
-(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
-[14
-
-]
-<assets/us_temp_sarimax_arima.png, id=133, 505.89pt x 361.35pt>
-File: assets/us_temp_sarimax_arima.png Graphic file (type png)
-<use assets/us_temp_sarimax_arima.png>
-Package pdftex.def Info: assets/us_temp_sarimax_arima.png  used on input line 209.
+<assets/seasonal.png, id=126, 505.89pt x 361.35pt>
+File: assets/seasonal.png Graphic file (type png)
+<use assets/seasonal.png>
+Package pdftex.def Info: assets/seasonal.png  used on input line 204.
 (pdftex.def)             Requested size: 254.93564pt x 182.0971pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 209.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 204.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 209.
+Package pdftex.def Info: assets/background.jpg  used on input line 204.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[14
+
+ <./assets/seasonal.png>]
+<assets/trend.png, id=135, 505.89pt x 361.35pt>
+File: assets/trend.png Graphic file (type png)
+<use assets/trend.png>
+Package pdftex.def Info: assets/trend.png  used on input line 210.
+(pdftex.def)             Requested size: 254.93564pt x 182.0971pt.
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 210.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 210.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [15
 
- <./assets/us_temp_sarimax_arima.png>]
-<assets/Kalman_Forecast_LLM.png, id=142, 498.663pt x 425.6703pt>
-File: assets/Kalman_Forecast_LLM.png Graphic file (type png)
-<use assets/Kalman_Forecast_LLM.png>
-Package pdftex.def Info: assets/Kalman_Forecast_LLM.png  used on input line 220.
-(pdftex.def)             Requested size: 156.06784pt x 133.22298pt.
-<assets/Kalman_Exog.png, id=143, 523.9575pt x 425.6703pt>
-File: assets/Kalman_Exog.png Graphic file (type png)
-<use assets/Kalman_Exog.png>
-Package pdftex.def Info: assets/Kalman_Exog.png  used on input line 220.
-(pdftex.def)             Requested size: 163.8868pt x 133.13855pt.
+ <./assets/trend.png>]
+<assets/remainder.png, id=144, 505.89pt x 361.35pt>
+File: assets/remainder.png Graphic file (type png)
+<use assets/remainder.png>
+Package pdftex.def Info: assets/remainder.png  used on input line 216.
+(pdftex.def)             Requested size: 254.93564pt x 182.0971pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 220.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 216.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 220.
+Package pdftex.def Info: assets/background.jpg  used on input line 216.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
 [16
+
+ <./assets/remainder.png>]
+<assets/us_temp_sarimax_arima.png, id=153, 505.89pt x 361.35pt>
+File: assets/us_temp_sarimax_arima.png Graphic file (type png)
+<use assets/us_temp_sarimax_arima.png>
+Package pdftex.def Info: assets/us_temp_sarimax_arima.png  used on input line 223.
+(pdftex.def)             Requested size: 254.93564pt x 182.0971pt.
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 223.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 223.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[17
+
+ <./assets/us_temp_sarimax_arima.png>]
+<assets/Kalman_Forecast_LLM.png, id=162, 498.663pt x 425.6703pt>
+File: assets/Kalman_Forecast_LLM.png Graphic file (type png)
+<use assets/Kalman_Forecast_LLM.png>
+Package pdftex.def Info: assets/Kalman_Forecast_LLM.png  used on input line 234.
+(pdftex.def)             Requested size: 156.06784pt x 133.22298pt.
+<assets/Kalman_Exog.png, id=163, 523.9575pt x 425.6703pt>
+File: assets/Kalman_Exog.png Graphic file (type png)
+<use assets/Kalman_Exog.png>
+Package pdftex.def Info: assets/Kalman_Exog.png  used on input line 234.
+(pdftex.def)             Requested size: 163.8868pt x 133.13855pt.
+File: assets/byu_logo.jpg Graphic file (type jpg)
+<use assets/byu_logo.jpg>
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 234.
+(pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
+
+
+File: assets/background.jpg Graphic file (type jpg)
+<use assets/background.jpg>
+Package pdftex.def Info: assets/background.jpg  used on input line 234.
+(pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
+[18
 
  <./assets/Kalman_Forecast_LLM.png> <./assets/Kalman_Exog.png>]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 238.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 252.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 238.
+Package pdftex.def Info: assets/background.jpg  used on input line 252.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
-[17
+[19
 
 ]
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
-Package pdftex.def Info: assets/byu_logo.jpg  used on input line 244.
+Package pdftex.def Info: assets/byu_logo.jpg  used on input line 258.
 (pdftex.def)             Requested size: 39.11453pt x 15.64581pt.
 
 
 File: assets/background.jpg Graphic file (type jpg)
 <use assets/background.jpg>
-Package pdftex.def Info: assets/background.jpg  used on input line 244.
+Package pdftex.def Info: assets/background.jpg  used on input line 258.
 (pdftex.def)             Requested size: 364.19252pt x 273.14256pt.
-[18
+[20
 
 ]
 \tf@nav=\write6
@@ -1291,18 +1332,18 @@ Package rerunfilecheck Info: File `demo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28983 strings out of 473190
- 596888 string characters out of 5715801
+ 29012 strings out of 473190
+ 597446 string characters out of 5715801
  971905 words of memory out of 5000000
- 51582 multiletter control sequences out of 15000+600000
+ 51607 multiletter control sequences out of 15000+600000
  638632 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,13n,123p,494b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,123p,479b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on demo.pdf (18 pages, 4587938 bytes).
+Output written on demo.pdf (20 pages, 7466677 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 220 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 

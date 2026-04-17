@@ -10,3 +10,11 @@ tex_dir/paper_draft.pdf
 tex_dir/paper_draft.synctex.gz
 tex_dir/paper_draft.bbl
 tex_dir/paper_draft.blg
+
+presentation/demo.aux
+presentation/demo.fdb_latexmk
+presentation/demo.fls
+presentation/demo.log
+presentation/demo.nav
+presentation/demo.pdf
+presentation/demo.synctex.gz
