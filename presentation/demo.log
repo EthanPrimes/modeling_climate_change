@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  16 APR 2026 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 13:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1250,13 +1250,13 @@ Package rerunfilecheck Info: File `demo.out' has not changed.
 Here is how much of TeX's memory you used:
  28905 strings out of 473190
  594830 string characters out of 5715801
- 971905 words of memory out of 5000000
+ 970905 words of memory out of 5000000
  51509 multiletter control sequences out of 15000+600000
  632328 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,123p,494b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on demo.pdf (17 pages, 2885823 bytes).
+Output written on demo.pdf (17 pages, 2885410 bytes).
 PDF statistics:
  172 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams
