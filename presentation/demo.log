@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1206,11 +1206,11 @@ Package pdftex.def Info: assets/background.jpg  used on input line 202.
 [14
 
 ]
-<assets/us_temp_sarimax_arima.png, id=133, 589.0005pt x 354.123pt>
+<assets/us_temp_sarimax_arima.png, id=133, 505.89pt x 361.35pt>
 File: assets/us_temp_sarimax_arima.png Graphic file (type png)
 <use assets/us_temp_sarimax_arima.png>
 Package pdftex.def Info: assets/us_temp_sarimax_arima.png  used on input line 209.
-(pdftex.def)             Requested size: 254.93564pt x 153.27495pt.
+(pdftex.def)             Requested size: 254.93564pt x 182.0971pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
 Package pdftex.def Info: assets/byu_logo.jpg  used on input line 209.
@@ -1228,7 +1228,7 @@ Package pdftex.def Info: assets/background.jpg  used on input line 209.
 File: assets/Kalman_Forecast_LLM.png Graphic file (type png)
 <use assets/Kalman_Forecast_LLM.png>
 Package pdftex.def Info: assets/Kalman_Forecast_LLM.png  used on input line 220.
-(pdftex.def)             Requested size: 163.8868pt x 139.89355pt.
+(pdftex.def)             Requested size: 156.06784pt x 133.22298pt.
 <assets/Kalman_Exog.png, id=143, 523.9575pt x 425.6703pt>
 File: assets/Kalman_Exog.png Graphic file (type png)
 <use assets/Kalman_Exog.png>
@@ -1299,7 +1299,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,13n,123p,494b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on demo.pdf (18 pages, 3230400 bytes).
+Output written on demo.pdf (18 pages, 4587938 bytes).
 PDF statistics:
  199 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
