@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 APR 2026 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/presentation/demo.tex
-(/Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/presentation/demo.tex
+**"/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex"
+(/Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1193,11 +1193,11 @@ Package pdftex.def Info: assets/background.jpg  used on input line 198.
 [13
 
  <./assets/gmm3.png>]
-<assets/seasonal.png, id=126, 505.89pt x 361.35pt>
+<assets/seasonal.png, id=126, 498.663pt x 354.123pt>
 File: assets/seasonal.png Graphic file (type png)
 <use assets/seasonal.png>
 Package pdftex.def Info: assets/seasonal.png  used on input line 204.
-(pdftex.def)             Requested size: 254.93564pt x 182.0971pt.
+(pdftex.def)             Requested size: 254.93564pt x 181.03801pt.
 File: assets/byu_logo.jpg Graphic file (type jpg)
 <use assets/byu_logo.jpg>
 Package pdftex.def Info: assets/byu_logo.jpg  used on input line 204.
@@ -1333,14 +1333,14 @@ Package rerunfilecheck Info: File `demo.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  29012 strings out of 473190
- 597446 string characters out of 5715801
+ 597487 string characters out of 5715801
  971905 words of memory out of 5000000
  51607 multiletter control sequences out of 15000+600000
  638632 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,13n,123p,479b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,123p,494b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on demo.pdf (20 pages, 10694955 bytes).
+Output written on demo.pdf (20 pages, 10108234 bytes).
 PDF statistics:
  220 PDF objects out of 1000 (max. 8388607)
  135 compressed objects within 2 object streams

@@ -1,8 +1,8 @@
-PWD /Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/presentation
+PWD /Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/nathanlonghurst/Desktop/ACME/modeling_climate_change/presentation/demo.tex
+INPUT /Users/ethanpalenske/Desktop/Winter 2026 Classes/modeling_climate_change/presentation/demo.tex
 OUTPUT demo.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
